@@ -1,0 +1,921 @@
+.jx-wrap {
+  width: 100%;
+  min-width: 1000px;
+  background: #fafafa; }
+  .jx-wrap .jx-top-header {
+    width: 100%;
+    background: #fff;
+    height: 88px;
+    box-shadow: 1px 2px 6px #e1e1e1;
+    position: relative;
+    z-index: 1; }
+    .jx-wrap .jx-top-header .jx-top-head {
+      width: 1000px;
+      height: 88px;
+      margin: 0 auto; }
+      .jx-wrap .jx-top-header .jx-top-head .logo {
+        float: left;
+        height: 63px;
+        margin-top: 15px;
+        width: 257px; }
+        .jx-wrap .jx-top-header .jx-top-head .logo .jx-index {
+          width: 140px; }
+        .jx-wrap .jx-top-header .jx-top-head .logo .jx-index a {
+          width: 140px; }
+        .jx-wrap .jx-top-header .jx-top-head .logo p {
+          float: left; }
+        .jx-wrap .jx-top-header .jx-top-head .logo p a {
+          display: block;
+          height: 63px; }
+      .jx-wrap .jx-top-header .jx-top-head .jx-signIn {
+        float: right;
+        color: #999;
+        margin-top: 48px;
+        height: 14px;
+        line-height: 14px; }
+        .jx-wrap .jx-top-header .jx-top-head .jx-signIn a, .jx-wrap .jx-top-header .jx-top-head .jx-signIn a:hover {
+          color: #0066cc;
+          margin-left: 20px; }
+      .jx-wrap .jx-top-header .jx-top-head .jx-help {
+        width: 77px;
+        height: 14px;
+        line-height: 14px;
+        float: right;
+        display: inline;
+        margin: 48px 0 0 20px;
+        position: relative;
+        cursor: pointer;
+        z-index: 10; }
+        .jx-wrap .jx-top-header .jx-top-head .jx-help .jx-help-icon {
+          height: 14px;
+          position: relative;
+          z-index: 2; }
+          .jx-wrap .jx-top-header .jx-top-head .jx-help .jx-help-icon span {
+            float: left;
+            display: inline-block;
+            color: #666;
+            margin-right: 6px; }
+          .jx-wrap .jx-top-header .jx-top-head .jx-help .jx-help-icon .jx-jt {
+            float: left;
+            display: inline-block;
+            background-position: -23px 0;
+            width: 15px;
+            height: 14px; }
+        .jx-wrap .jx-top-header .jx-top-head .jx-help .jx-help-pop {
+          display: none;
+          position: absolute;
+          border: 1px solid #ccc;
+          top: -6px;
+          left: -10px;
+          width: 85px;
+          z-index: 1;
+          padding-top: 26px; }
+          .jx-wrap .jx-top-header .jx-top-head .jx-help .jx-help-pop li {
+            border-top: 1px dotted #ccc;
+            padding-left: 10px;
+            height: 24px;
+            line-height: 24px;
+            background: #fff; }
+            .jx-wrap .jx-top-header .jx-top-head .jx-help .jx-help-pop li a {
+              color: #999; }
+  .jx-wrap input {
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+    font-size: 16px;
+    border: 1px solid #dcdcdc; }
+  .jx-wrap input.on {
+    border: 1px solid #ff6666; }
+  .jx-wrap input::-webkit-input-placeholder {
+    /*WebKit browsers*/
+    color: #ccc; }
+  .jx-wrap input::-moz-input-placeholder {
+    /*Mozilla Firefox*/
+    color: #ccc; }
+  .jx-wrap input::-ms-input-placeholder {
+    /*Internet Explorer*/
+    color: #ccc; }
+  .jx-wrap i {
+    background: url(../images/logIn/regLogin-8.png) no-repeat 0 0; }
+  .jx-wrap .jx-footer {
+    width: 100%;
+    padding: 10px 0 0; }
+    .jx-wrap .jx-footer .jx-foot {
+      width: 1000px;
+      margin: 0 auto;
+      text-align: center; }
+      .jx-wrap .jx-footer .jx-foot p {
+        line-height: 30px;
+        color: #333; }
+      .jx-wrap .jx-footer .jx-foot .red {
+        color: #ff0000; }
+  .jx-wrap .jx-main-bg {
+    width: 100%;
+    padding: 0 0 50px;
+    height: 600px; }
+    .jx-wrap .jx-main-bg .jx-main {
+      width: 1000px;
+      margin: 0 auto; }
+      .jx-wrap .jx-main-bg .jx-main .jx-content {
+        background: #fff;
+        border: 3px solid #eaeaea;
+        border-radius: 5px;
+        box-shadow: 1px 6px 11px #e4e4e4;
+        height: 500px;
+        position: relative; }
+      .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd {
+        background: transparent;
+        border: 0;
+        box-shadow: 0 0 0 0; }
+        .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .picFoucs {
+          display: block;
+          position: absolute;
+          width: 650px;
+          height: 600px;
+          z-index: 1; }
+        .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd {
+          background-color: #fff;
+          overflow: hidden;
+          position: relative;
+          width: 350px;
+          height: 405px;
+          top: 100px;
+          left: 650px; }
+          .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .jx-ewmLoginLink {
+            display: block;
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 9999;
+            cursor: pointer; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .jx-ewmLoginLink i {
+              background-position: 0 -230px;
+              width: 65px;
+              height: 65px;
+              display: block; }
+          .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .jx-pcLoginLink {
+            display: block;
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 9999;
+            cursor: pointer;
+            display: none; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .jx-pcLoginLink i {
+              background-position: -80px -230px;
+              width: 65px;
+              height: 65px;
+              display: block; }
+          .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon {
+            width: 270px;
+            margin-left: 40px; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginTit {
+              margin: 14px 0 19px;
+              height: 40px;
+              overflow: hidden;
+              line-height: 40px;
+              border-bottom: 1px solid #e9e9e9; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginTit a {
+                float: left;
+                display: inline-block;
+                display: inline;
+                zoom: 1;
+                color: #999;
+                font-size: 16px; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginTit a:hover {
+                color: #0066cc; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginTit a.on {
+                color: #e4393c;
+                font-weight: 700; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginTit span {
+                float: left;
+                display: inline-block;
+                display: inline;
+                zoom: 1;
+                font-size: 12px;
+                color: #999;
+                padding: 0 18px; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType {
+              height: 267px;
+              border-bottom: 1px dotted #ccc;
+              overflow: hidden; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame {
+                width: 270px;
+                height: 42px;
+                position: relative;
+                top: 0;
+                left: 0;
+                margin-bottom: 20px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter {
+                  width: 43px;
+                  height: 42px;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 5; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter i {
+                    float: left;
+                    display: inline-block;
+                    display: inline;
+                    zoom: 1; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter p {
+                    display: inline-block;
+                    display: inline;
+                    zoom: 1;
+                    font-size: 16px;
+                    margin-top: 11px;
+                    color: #ccc;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 200px;
+                    padding-left: 55px;
+                    z-index: 5; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter .userIconBox {
+                    display: inline-block;
+                    width: 43px;
+                    height: 40px;
+                    background: #f3f3f3;
+                    position: absolute;
+                    top: 1px;
+                    left: 1px;
+                    z-index: 3;
+                    border-right: 1px solid #dcdcdc; }
+                    .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter .userIconBox .userIcon {
+                      width: 20px;
+                      height: 20px;
+                      background-position: -51px 0;
+                      margin: 10px 10px 0 11px; }
+                    .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter .userIconBox .pwdIcon {
+                      width: 16px;
+                      height: 22px;
+                      background-position: -83px 0;
+                      margin: 10px 11px auto 13px; }
+                    .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter .userIconBox .yzIcon {
+                      width: 18px;
+                      height: 24px;
+                      background-position: -426px 0;
+                      margin: 10px 11px auto 13px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter .judge {
+                    float: none;
+                    display: inline-block;
+                    *display: inline;
+                    *zoom: 1;
+                    position: absolute;
+                    left: 246px;
+                    top: 15px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .filter .judgeDel {
+                    float: left;
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    display: inline;
+                    zoom: 1;
+                    background-position: -486px -42px;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 14px;
+                    left: 248px;
+                    z-index: 5;
+                    display: none; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .text {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 4;
+                  font-weight: 700;
+                  background: none;
+                  z-index: 4; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .mistakeTip, .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .mistakeTip02 {
+                  background: #ed787f;
+                  padding: 0 10px;
+                  height: 20px;
+                  color: #fff;
+                  line-height: 20px;
+                  position: absolute;
+                  bottom: -15px;
+                  right: 0;
+                  z-index: 5; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .mistakeTip {
+                  background: #ed787f; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame .mistakeTip02 {
+                  background: #ccc; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .enterFrame .text {
+                width: 173px;
+                padding: 0 45px 0 50px;
+                z-index: 4; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .Frame.wrong .judge {
+                width: 15px;
+                height: 15px;
+                background-position: -162px 0; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .yzFrame .text {
+                padding-left: 50px;
+                width: 84px;
+                padding-right: 134px;
+                z-index: 4; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .yzFrame .refresh i {
+                width: 80px;
+                height: 40px;
+                z-index: 5;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-position: 188px 188px;
+                text-align: center;
+                font-size: 18px;
+                line-height: 40px; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .yzFrame .yzm {
+                position: absolute;
+                left: 189px;
+                top: 1px; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom {
+                margin: 0 0 20px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox {
+                  height: 42px;
+                  width: 302px;
+                  float: left;
+                  position: relative; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .checkButBox {
+                    width: 148px;
+                    height: 42px;
+                    position: absolute;
+                    _top: 1px;
+                    top: 0;
+                    right: 0;
+                    z-index: 3; }
+                    .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .checkButBox .regCheckBut {
+                      display: inline-block;
+                      width: 146px;
+                      height: 40px;
+                      line-height: 40px;
+                      font-size: 12px;
+                      text-align: center;
+                      font-weight: normal;
+                      border: 1px solid #ccc;
+                      background-color: #eaeaea;
+                      cursor: pointer;
+                      border-radius: 3px; }
+                      .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .checkButBox .regCheckBut em {
+                        font-style: normal;
+                        padding: 0 5px;
+                        display: inline-block;
+                        color: #cc0000; }
+                      .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .checkButBox .regCheckBut del {
+                        text-decoration: none;
+                        font-style: normal;
+                        color: #cc0000;
+                        padding-right: 3px; }
+                    .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .checkButBox .regCheckBut.logregCheckBtn {
+                      width: 114px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .checkButBox.loginRegbd {
+                    width: 116px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regIconBox {
+                    height: 35px;
+                    width: 45px;
+                    background: #fff;
+                    position: absolute;
+                    left: 1px;
+                    top: 2px;
+                    _top: 3px;
+                    z-index: 4;
+                    padding-top: 2px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regIcon {
+                    display: inline-block;
+                    height: 26px;
+                    width: 26px;
+                    position: absolute;
+                    left: 12px;
+                    top: 9px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regIcon.accName {
+                    background-position: -48px 2px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regIcon.accPass {
+                    background-position: -77px 2px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regIcon.accCap {
+                    background-position: -422px 2px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regIcon.accCheck {
+                    background-position: -259px 1px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regValue {
+                    display: inline-block;
+                    height: 26px;
+                    line-height: 26px;
+                    font-size: 16px;
+                    color: #ccc;
+                    position: absolute;
+                    top: 9px;
+                    left: 45px;
+                    z-index: 2;
+                    display: none; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regPointIcon {
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    top: 14px;
+                    top: 15px;
+                    _top: 17px;
+                    right: 10px;
+                    z-index: 4; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regPointIcon.regFalse {
+                    background-position: -162px 0; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regPointIcon.regTrue {
+                    background-position: -139px 0; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regPoint {
+                    display: inline-block;
+                    height: 20px;
+                    line-height: 20px;
+                    color: #fff;
+                    padding: 0 8px;
+                    position: absolute;
+                    top: 37px;
+                    top: 38px;
+                    _top: 41px;
+                    right: 0px;
+                    z-index: 5; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regPoint.poiFalse {
+                    background: #ed787f; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regPoint.poiTrue {
+                    background: #ccc; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regCap {
+                    display: block;
+                    width: 80px;
+                    height: 40px;
+                    position: absolute;
+                    top: 0;
+                    right: 3px;
+                    z-index: 1;
+                    top: 2px;
+                    _top: 2px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regCapIcon {
+                    display: block;
+                    width: 80px;
+                    height: 40px;
+                    background-position: 188px 100px;
+                    position: absolute;
+                    top: 0;
+                    top: 2px;
+                    _top: 2px;
+                    right: 3px;
+                    cursor: pointer;
+                    z-index: 3; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .regInputLogin {
+                    width: 95px;
+                    padding-left: 54px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .regAccInforBom .regInputBox .userIconBox {
+                    display: inline-block;
+                    width: 43px;
+                    height: 40px;
+                    background: #f3f3f3;
+                    position: absolute;
+                    top: 1px;
+                    left: 1px;
+                    z-index: 3;
+                    border-right: 1px solid #dcdcdc; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .loginBtn {
+                margin-bottom: 11px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .loginBtn input {
+                  width: 270px;
+                  background-color: #e10303;
+                  color: #fff;
+                  border-radius: 2px;
+                  border: 0;
+                  cursor: pointer;
+                  font-family: "Microsoft Yahei"; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice {
+                margin-bottom: 16px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice .auto, .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice .forgetPwd {
+                  color: #999;
+                  display: inline-block;
+                  *display: inline;
+                  *zoom: 1; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice .freeReg {
+                  color: #0066cc;
+                  display: inline-block;
+                  *display: inline;
+                  *zoom: 1;
+                  float: right;
+                  padding-left: 13px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice .forgetLine {
+                  float: right;
+                  padding: 0 3px;
+                  position: relative;
+                  top: -2px;
+                  color: #999; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice .auto {
+                  float: left; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice .auto input {
+                    height: auto;
+                    border: 0; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .loginType .moreChoice .forgetPwd {
+                  float: right; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate {
+              width: 291px; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate p {
+                margin: 22px 15px 0 0;
+                float: left;
+                color: #999; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay {
+                width: 243px;
+                height: 42px;
+                margin: 0 auto; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay a i {
+                  float: left;
+                  display: inline-block;
+                  *display: inline;
+                  *zoom: 1;
+                  width: 30px;
+                  height: 30px;
+                  margin-left: 12px;
+                  margin-top: 16px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .qq i {
+                  background-position: 0 -35px;
+                  margin-left: 0; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .sina i {
+                  background-position: -51px -35px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .aliPay i {
+                  background-position: -102px -35px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .baidu i {
+                  background-position: -153px -35px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .qq:hover i {
+                  background-position: 0 -86px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .sina:hover i {
+                  background-position: -51px -86px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .aliPay:hover i {
+                  background-position: -102px -86px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .loginCon .cooperate .cooperateWay .baidu:hover i {
+                  background-position: -153px -86px; }
+          .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon {
+            width: 270px;
+            margin-left: 40px; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon h2 {
+              height: 70px;
+              line-height: 70px;
+              font-size: 16px;
+              color: #666; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess {
+              text-align: center; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess .sCanSIcon {
+                padding: 30px 0 20px; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess .sCanSIcon i {
+                display: inline-block;
+                width: 78px;
+                height: 76px;
+                background-position: -170px -150px; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess h4 {
+                line-height: 40px;
+                font-size: 18px;
+                color: #333;
+                font-weight: normal; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess p {
+                font-size: 12px;
+                color: #999;
+                line-height: 45px; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess .sCanLink {
+                text-align: left;
+                padding-top: 70px; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess .sCanLink a {
+                  color: #ff6633; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess .sCanLink span {
+                  float: right; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanSuccess .sCanLink span a {
+                    float: left;
+                    padding-left: 10px;
+                    color: #333; }
+            .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError {
+              text-align: center;
+              position: relative; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .tipImg {
+                width: 167px;
+                height: 200px;
+                position: absolute;
+                top: -25px;
+                right: -30px;
+                display: none; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorEwm {
+                width: 150px;
+                height: 150px;
+                margin: 20px auto 40px;
+                position: relative;
+                overflow: hidden; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorEwm img {
+                  width: 100%;
+                  height: 100%; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorEwm .bj {
+                  width: 150px;
+                  height: 150px;
+                  background-color: #000;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 1;
+                  filter: alpha(opacity=50);
+                  -moz-opacity: 0.5;
+                  opacity: 0.5; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorEwm .info {
+                  width: 150px;
+                  height: 150px;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 2;
+                  text-align: center; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorEwm .info p {
+                    color: #fff;
+                    height: 25px;
+                    line-height: 25px;
+                    padding: 40px 0 15px; }
+                  .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorEwm .info a {
+                    display: inline-block;
+                    width: 86px;
+                    height: 23px;
+                    line-height: 23px;
+                    text-align: center;
+                    background-color: #e4393c;
+                    color: #fff; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorTip i {
+                display: block;
+                float: left;
+                background-position: -270px -150px;
+                width: 33px;
+                height: 33px;
+                margin: 1px 10px 0 65px;
+                _display: inline; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorTip p {
+                float: left;
+                color: #999;
+                line-height: 16px;
+                text-align: left; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .scanErrorTip p em {
+                  color: #e4393c;
+                  font-style: normal; }
+              .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .sCanErroLink {
+                padding-top: 50px;
+                text-align: right; }
+                .jx-wrap .jx-main-bg .jx-main .jx-content.loginbd .jx-contentbd .ewmCon .scanError .sCanErroLink a {
+                  padding-left: 10px;
+                  color: #333; }
+  .jx-wrap .jx-main-bg.regBg {
+    background: url(../images/sign/bg.jpg) repeat-x scroll left top;
+    padding-top: 70px; }
+    .jx-wrap .jx-main-bg.regBg .jx-regBox {
+      height: 450px;
+      width: 994px;
+      position: relative; }
+      .jx-wrap .jx-main-bg.regBg .jx-regBox .jx-regTitBox {
+        width: 280px;
+        height: 34px;
+        position: absolute;
+        right: 15px;
+        top: -37px; }
+        .jx-wrap .jx-main-bg.regBg .jx-regBox .jx-regTitBox .jx-regTit {
+          float: right;
+          cursor: pointer;
+          display: inline-block;
+          padding: 0 15px;
+          height: 34px;
+          line-height: 34px;
+          color: #fff;
+          font-size: 14px;
+          /*border:2px solid #ff9900;*/
+          border-bottom: 0px;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background: #ff9900;
+          margin-left: 6px;
+          vertical-align: top;
+          border-bottom: none; }
+          .jx-wrap .jx-main-bg.regBg .jx-regBox .jx-regTitBox .jx-regTit:hover {
+            color: #fff;
+            text-decoration: none; }
+          .jx-wrap .jx-main-bg.regBg .jx-regBox .jx-regTitBox .jx-regTit.on {
+            height: 35px;
+            border: 2px solid #eaeaea;
+            background: #fff;
+            color: #ff9900;
+            margin-bottom: -3px;
+            position: relative;
+            border-bottom: none; }
+      .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap {
+        height: 500px;
+        width: 994px;
+        overflow: hidden;
+        position: relative; }
+        .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul {
+          width: 2000px;
+          height: 450px; }
+          .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li.regCon {
+            float: left;
+            width: 784px;
+            padding: 26px 0 0 125px; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li.regCon #password, .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li.regCon #repassword {
+              width: 210px;
+              padding-right: 45px; }
+          .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li.add {
+            width: 784px;
+            padding: 55px 0 0 125px;
+            float: left; }
+          .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor {
+            margin-top: 15px; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInput {
+              width: 255px;
+              padding-left: 45px;
+              background: none;
+              position: relative;
+              z-index: 3;
+              font-weight: 700; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .userAccountNameByEmail {
+              width: 215px;
+              padding-right: 40px; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regLabel {
+              width: 230px;
+              height: 42px;
+              line-height: 42px;
+              text-align: right;
+              font-size: 16px;
+              padding-right: 30px;
+              float: left; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox {
+              height: 42px;
+              width: 302px;
+              float: left;
+              position: relative; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regIconBox {
+                height: 35px;
+                width: 45px;
+                background: #fff;
+                position: absolute;
+                left: 1px;
+                top: 2px;
+                _top: 3px;
+                z-index: 4;
+                padding-top: 2px; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regIcon {
+                display: inline-block;
+                height: 26px;
+                width: 26px;
+                position: absolute;
+                left: 12px;
+                top: 9px; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regIcon.accName {
+                  background-position: -48px 2px; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regIcon.accPass {
+                  background-position: -77px 2px; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regIcon.accCap {
+                  background-position: -422px 2px; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regIcon.accCheck {
+                  background-position: -259px 1px; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regValue {
+                display: inline-block;
+                height: 26px;
+                line-height: 26px;
+                font-size: 16px;
+                color: #ccc;
+                position: absolute;
+                top: 9px;
+                left: 45px;
+                z-index: 2;
+                display: none; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regPointIcon {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 14px;
+                *top: 15px;
+                _top: 17px;
+                right: 10px;
+                z-index: 4; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regPointIcon.regFalse {
+                  background-position: -162px 0; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regPointIcon.regTrue {
+                  background-position: -139px 0; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regPoint {
+                display: inline-block;
+                height: 20px;
+                line-height: 20px;
+                color: #fff;
+                padding: 0 8px;
+                position: absolute;
+                top: 37px;
+                *top: 38px;
+                _top: 41px;
+                right: 0px;
+                z-index: 5; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regPoint.poiFalse {
+                  background: #ed787f; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regPoint.poiTrue {
+                  background: #ccc; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputBox .regSub {
+                width: 302px;
+                height: 42px;
+                font-size: 18px;
+                color: #fff;
+                border-radius: 2px;
+                border: none;
+                background: #e10303;
+                cursor: pointer; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regCap {
+              display: block;
+              width: 80px;
+              height: 40px;
+              position: absolute;
+              top: 0;
+              right: 3px;
+              z-index: 1;
+              *top: 2px;
+              _top: 2px; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regCapIcon {
+              display: block;
+              width: 80px;
+              height: 40px;
+              background-position: 188px 100px;
+              position: absolute;
+              top: 0;
+              *top: 2px;
+              _top: 2px;
+              right: 3px;
+              cursor: pointer;
+              z-index: 3;
+              line-height: 40px;
+              text-align: center;
+              font-size: 18px; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .regInputChe {
+              width: 101px;
+              padding-left: 45px;
+              background: none;
+              position: relative;
+              z-index: 3;
+              font-weight: 700; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .checkButBox {
+              width: 148px;
+              height: 42px;
+              position: absolute;
+              top: 0;
+              *top: 1px;
+              _top: 2px;
+              right: 0;
+              z-index: 3; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .checkButBox.loginRegbd {
+                width: 116px; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .checkButBox .regCheckBut {
+                display: inline-block;
+                width: 146px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 12px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #ccc;
+                background-color: #eaeaea;
+                cursor: pointer;
+                border-radius: 3px; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .checkButBox .regCheckBut em {
+                  font-style: normal;
+                  padding: 0 5px;
+                  display: inline-block;
+                  color: #cc0000; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .checkButBox .regCheckBut del {
+                  text-decoration: none;
+                  font-style: normal;
+                  color: #cc0000;
+                  padding-right: 3px; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccInfor .checkButBox .regCheckBut.logregCheckBtn {
+                width: 114px; }
+          .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut {
+            margin: 8px 0 0 260px; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut .regInputBox .regSub {
+              width: 302px;
+              height: 42px;
+              font-size: 18px;
+              color: #fff;
+              border-radius: 2px;
+              border: none;
+              background: #e10303;
+              cursor: pointer; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut .regAgreeBox {
+              line-height: 22px;
+              width: 302px;
+              position: relative; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut .regAgreeBox .regAgrInput {
+                height: auto;
+                border: none; }
+              .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut .regAgreeBox .regAgree {
+                display: inline-block;
+                color: #999;
+                margin-left: 10px;
+                margin-top: 12px;
+                margin-bottom: 9px; }
+                .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut .regAgreeBox .regAgree a {
+                  color: #0066cc; }
+                  .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut .regAgreeBox .regAgree a:hover {
+                    color: #0066cc; }
+            .jx-wrap .jx-main-bg.regBg .jx-regBox .regConWrap ul li .regAccBut .regAgreePoint {
+              color: #cc0000;
+              padding-left: 24px;
+              *padding-left: 30px;
+              _padding-left: 31px; }
+
+/*# sourceMappingURL=reg-logIn.css.map */

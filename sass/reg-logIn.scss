@@ -1,0 +1,660 @@
+.jx-wrap{
+    width: 100%;
+    min-width: 1000px;
+    background: #fafafa;
+    & .jx-top-header{
+        width: 100%;
+        background: #fff;
+        height: 88px;
+        box-shadow: 1px 2px 6px #e1e1e1;
+        position: relative;
+        z-index: 1;
+        & .jx-top-head{
+            width: 1000px;
+            height: 88px;
+            margin: 0 auto;
+            & .logo{
+                float: left;
+                height: 63px;
+                margin-top: 15px;
+                width: 257px;
+                & .jx-index{
+                    width: 140px;
+                }
+                & .jx-index a{
+                    width: 140px;
+                }
+                & p{
+                    float: left;
+                }
+                & p a{
+                    display: block;
+                    height: 63px;
+                }
+            }
+            & .jx-signIn{
+                float: right;
+                color:#999;
+                margin-top: 48px;
+                height: 14px;
+                line-height: 14px;
+                & a,& a:hover{
+                    color:#0066cc;
+                    margin-left:20px;
+                }
+            }
+            
+            & .jx-help{
+                width:77px; 
+                height:14px; 
+                line-height:14px; 
+                float:right; 
+                display:inline; 
+                margin:48px 0 0 20px; 
+                position:relative; 
+                cursor:pointer; 
+                z-index:10;
+                
+                & .jx-help-icon{
+                    height:14px; 
+                    position:relative; 
+                    z-index:2;
+                    & span{
+                        float:left; 
+                        display:inline-block; 
+                        color:#666; 
+                        margin-right:6px;
+                    }
+                    & .jx-jt{
+                        float:left; 
+                        display:inline-block; 
+                        background-position:-23px 0; 
+                        width:15px; 
+                        height:14px;
+                    }
+                }
+                & .jx-help-pop{
+                    display:none; position:absolute; border:1px solid #ccc; top:-6px; left:-10px; width:85px; z-index:1; padding-top:26px;
+                    & li{
+                        border-top:1px dotted #ccc; padding-left:10px; height:24px; line-height:24px; background:#fff;
+                        & a{
+                            color:#999;
+                        }
+                    }
+                }
+            }
+            
+            
+        }
+    }
+    & input{
+        height: 40px;
+        line-height: 40px;
+        color:#999;
+        font-size: 16px;
+        border:1px solid #dcdcdc;
+    }
+    & input.on{
+        border: 1px solid #ff6666;
+    }
+    & input::-webkit-input-placeholder{ /*WebKit browsers*/
+        color: #ccc;
+    }
+    & input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    color: #ccc;
+    }
+    & input::-ms-input-placeholder{ /*Internet Explorer*/ 
+    color: #ccc;
+    }
+    & i{
+        background: url(../images/logIn/regLogin-8.png) no-repeat 0 0;
+    }
+    
+    
+    & .jx-footer{
+        width:100%; padding:10px 0 0;
+        & .jx-foot{ 
+            width:1000px; margin:0 auto; text-align:center;
+            & p{ line-height:30px; color:#333;}
+            & .red{ color:#ff0000;}
+        }
+    }
+    
+    
+    & .jx-main-bg{
+        width: 100%;
+        padding: 0 0 50px;
+        height: 600px;
+        & .jx-main{
+            width: 1000px;
+            margin: 0 auto;
+            & .jx-content{
+                background:#fff;border: 3px solid #eaeaea;border-radius: 5px;box-shadow: 1px 6px 11px #e4e4e4;height: 500px; position:relative;
+            }
+            & .jx-content.loginbd{
+                background:transparent;border:0;box-shadow:0 0 0 0;
+                
+                & .picFoucs{
+                    display: block;
+                    position: absolute;
+                    width: 650px;
+                    height: 600px;
+                    z-index: 1;
+                }
+                & .jx-contentbd{
+                   background-color:#fff;
+                   overflow:hidden;
+                   position:relative;
+                   width:350px;
+                   height:405px;
+                   top:100px;
+                   left:650px;
+                   & .jx-ewmLoginLink{
+                       display:block;
+                       width:65px;
+                       height:65px;
+                       position:absolute;
+                       top:0;
+                       right:0;
+                       z-index:9999;
+                       cursor:pointer;
+                       & i{
+                           background-position:0 -230px;width:65px;height:65px;display:block;
+                       }
+                   }
+                   & .jx-pcLoginLink{
+                       display:block;
+                       width:65px;
+                       height:65px;
+                       position:absolute;
+                       top:0;
+                       right:0;
+                       z-index:9999;
+                       cursor:pointer;
+                       display:none;
+                       & i{
+                           background-position:-80px -230px;width:65px;height:65px;display:block;
+                       }
+                   }
+                   & .loginCon{
+                       width:270px;margin-left:40px;
+                       & .loginTit{
+                           margin:14px 0 19px;
+                           height:40px;
+                           overflow:hidden;
+                           line-height:40px;
+                           border-bottom:1px solid #e9e9e9;
+                           & a{
+                               float:left;display: inline-block;display: inline;zoom: 1;
+                               color: #999;font-size:16px;
+                           }
+                           & a:hover{
+                               color: #0066cc;
+                           }
+                           & a.on{
+                               color:#e4393c;font-weight:700;
+                           }
+                           & span{
+                               float:left;display: inline-block;display: inline;
+                               zoom: 1;font-size:12px;color:#999;padding:0 18px;
+                           }
+                        }
+                        & .loginType{
+                            height: 267px;border-bottom: 1px dotted #ccc;overflow: hidden;
+                            & .Frame{
+                                width: 270px;
+                                height: 42px;
+                                position: relative;
+                                top: 0;
+                                left: 0;
+                                margin-bottom: 20px;
+                                & .filter{
+                                    width: 43px;
+                                    height: 42px;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    z-index: 5;
+                                    & i{
+                                        float: left;display: inline-block;display: inline;zoom: 1;
+                                    }
+                                    & p{
+                                        display: inline-block;
+                                        display: inline;
+                                        zoom: 1;
+                                        font-size: 16px;
+                                        margin-top: 11px;
+                                        color: #ccc;
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                        width: 200px;
+                                        padding-left: 55px;
+                                        z-index: 5;                                    
+                                    }
+                                    & .userIconBox{
+                                        display: inline-block;
+                                        width: 43px;
+                                        height: 40px;
+                                        background: #f3f3f3;
+                                        position: absolute;
+                                        top: 1px;
+                                        left: 1px;
+                                        z-index: 3;
+                                        border-right: 1px solid #dcdcdc;
+                                        & .userIcon{
+                                            width: 20px;
+                                            height: 20px;
+                                            background-position: -51px 0;
+                                            margin: 10px 10px 0 11px;
+                                        }
+                                        & .pwdIcon{
+                                            width: 16px;
+                                            height: 22px;
+                                            background-position: -83px 0;
+                                            margin: 10px 11px auto 13px;
+                                        }
+                                        & .yzIcon{
+                                            width: 18px;
+                                            height: 24px;
+                                            background-position: -426px 0;
+                                            margin: 10px 11px auto 13px;
+                                        }
+                                    }
+                                    & .judge{
+                                        float: none;
+                                        display: inline-block;
+                                        *display: inline;
+                                        *zoom: 1;
+                                        position: absolute;
+                                        left: 246px;
+                                        top: 15px;
+                                    }
+                                    & .judgeDel{
+                                        float: left;
+                                        display: inline-block;
+                                        width: 16px;
+                                        height: 16px;
+                                        display: inline;
+                                        zoom: 1;
+                                        background-position: -486px -42px;
+                                        cursor: pointer;
+                                        position: absolute;
+                                        top: 14px;
+                                        left: 248px;
+                                        z-index: 5;
+                                        display: none;
+                                    }
+                                }
+                                & .text{
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    z-index: 4;
+                                    font-weight: 700;
+                                    background: none;
+                                    z-index: 4;
+                                    
+                                }
+                                & .mistakeTip,& .mistakeTip02{
+                                    background: #ed787f;
+                                    padding: 0 10px;
+                                    height: 20px;
+                                    color: #fff;
+                                    line-height: 20px;
+                                    position: absolute;
+                                    bottom: -15px;
+                                    right: 0;
+                                    z-index: 5;
+                                }
+                                & .mistakeTip{
+                                    background: #ed787f;
+                                }
+                                & .mistakeTip02{
+                                    background: #ccc;
+                                }
+                            }
+                            & .enterFrame .text{
+                                width: 173px;
+                                padding: 0 45px 0 50px;
+                                z-index: 4;
+                            }
+                            & .Frame.wrong .judge{
+                                width: 15px;
+                                height: 15px;
+                                background-position: -162px 0;
+                            }
+                            & .yzFrame .text{
+                                padding-left: 50px;
+                                width: 84px;
+                                padding-right: 134px;
+                                z-index: 4;
+                            }
+                            & .yzFrame .refresh i{
+                                width: 80px;
+                                height: 40px;
+                                z-index: 5;
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                background-position: 188px 188px;
+                                text-align: center;
+                                font-size: 18px;
+                                line-height: 40px;
+                            }
+                            & .yzFrame .yzm{
+                                position: absolute;
+                                left: 189px;
+                                top: 1px;
+                            }
+                            & .regAccInforBom{
+                                margin:0 0 20px;
+                                & .regInputBox{
+                                    height:42px; width:302px; float:left; position:relative;
+                                    & .checkButBox{ 
+                                        width:148px; 
+                                        height:42px; 
+                                        position:absolute; 
+                                        _top:1px; 
+                                        top:0;
+                                        right:0; 
+                                        z-index:3;
+                                        & .regCheckBut{ 
+                                            display:inline-block;
+                                            width:146px; 
+                                            height:40px; 
+                                            line-height:40px; 
+                                            font-size:12px; 
+                                            text-align:center; 
+                                            font-weight:normal; 
+                                            border:1px solid #ccc;
+                                            background-color:#eaeaea; 
+                                            cursor:pointer;
+                                            border-radius:3px;
+                                            & em{font-style:normal; padding:0 5px; display:inline-block; color:#cc0000;}
+                                             & del{ text-decoration: none; font-style:normal; color:#cc0000; padding-right:3px;}
+                                        }
+                                        & .regCheckBut.logregCheckBtn{width:114px;}
+                                    }
+                                    & .checkButBox.loginRegbd{width:116px;}
+                                    & .regIconBox{ height:35px; width:45px; background:#fff; position:absolute; left:1px; top:2px; _top:3px; z-index:4;padding-top: 2px;}
+                                    & .regIcon{ display:inline-block; height:26px; width:26px; position:absolute; left:12px; top:9px;}
+                                    & .regIcon.accName{ background-position:-48px 2px;}
+                                    & .regIcon.accPass{ background-position:-77px 2px;}
+                                    &  .regIcon.accCap{ background-position:-422px 2px;}
+                                    & .regIcon.accCheck{ background-position:-259px 1px;}
+                                    & .regValue{ display:inline-block; height:26px; line-height:26px; font-size:16px; color:#ccc; position:absolute; top:9px; left:45px; z-index:2; display:none;}
+                                    & .regPointIcon{ display:inline-block; width:15px; height:15px; position:absolute; top:14px; top:15px; _top:17px; right:10px; z-index:4;}
+                                    & .regPointIcon.regFalse{ background-position:-162px 0;}
+                                    & .regPointIcon.regTrue{background-position:-139px 0;}
+                                    & .regPoint{ display:inline-block; height:20px; line-height:20px; color:#fff; padding:0 8px; position:absolute; top:37px; top:38px; _top:41px; right:0px; z-index:5;}
+                                    & .regPoint.poiFalse{ background:#ed787f;}
+                                    & .regPoint.poiTrue{ background:#ccc;}
+                                    & .regCap{ display:block; width:80px; height:40px; position:absolute;top:0;right:3px;z-index:1; top:2px; _top:2px; }
+                                    & .regCapIcon{ display:block; width:80px; height:40px; background-position:188px 100px; position:absolute; top:0; top:2px; _top:2px; right:3px; cursor:pointer; z-index:3;}
+                                    & .regInputLogin{width:95px;padding-left:54px;}
+                                    & .userIconBox{display: inline-block;width: 43px;height: 40px;background:#f3f3f3;position:absolute; top:1px; left:1px; z-index:3;border-right:1px solid #dcdcdc;}
+                                }
+                            }
+                            & .loginBtn{
+                                margin-bottom: 11px;
+                                & input{
+                                    width: 270px;
+                                    background-color: #e10303;
+                                    color: #fff;
+                                    border-radius: 2px;
+                                    border: 0;
+                                    cursor: pointer;
+                                    font-family: "Microsoft Yahei";
+                                }
+                            }
+                            & .moreChoice{
+                                margin-bottom: 16px;
+                                & .auto,& .forgetPwd{
+                                    color: #999;display: inline-block;*display: inline;*zoom: 1;
+                                }
+                                & .freeReg{
+                                    color: #0066cc;display: inline-block;*display: inline;*zoom: 1;float: right;padding-left:13px;
+                                }
+                                & .forgetLine{
+                                    float: right; padding:0 3px; position: relative; top:-2px; color:#999;
+                                }
+                                & .auto{
+                                    float: left;
+                                    & input{
+                                        height: auto;
+                                        border: 0;
+                                    }
+                                }
+                                & .forgetPwd{
+                                    float: right;
+                                }
+                                
+                            }
+                        }
+                        & .cooperate{
+                            width: 291px;
+                            & p{
+                                margin:22px 15px 0 0;float:left;color: #999;
+                            }
+                            & .cooperateWay{
+                                width: 243px;height: 42px;margin: 0 auto;
+                                & a i{
+                                    float: left;display: inline-block;*display: inline;*zoom: 1;width:30px;height: 30px;margin-left:12px;margin-top:16px;
+                                    
+                                }
+                                & .qq i{
+                                    background-position: 0 -35px;margin-left: 0;
+                                    
+                                }
+                                & .sina i{
+                                    background-position: -51px -35px;
+                                }
+                                & .aliPay i{
+                                    background-position: -102px -35px;
+                                }
+                                & .baidu i{
+                                    background-position: -153px -35px;
+                                }
+                                & .qq:hover i{ background-position: 0 -86px;}
+                                & .sina:hover i{background-position: -51px -86px;}
+                                & .aliPay:hover i{background-position: -102px -86px;}
+                                & .baidu:hover i{background-position: -153px -86px;}
+                            }
+                        }
+                    }
+                   & .ewmCon{
+                       width:270px;margin-left:40px;
+                       & h2{
+                           height:70px;line-height:70px;font-size:16px;color:#666;
+                       }
+                       & .scanSuccess{
+                           text-align:center;
+                           & .sCanSIcon{padding:30px 0 20px;}
+                           & .sCanSIcon i{
+                               display:inline-block;width:78px;height:76px;background-position:-170px -150px;}
+                           & h4{line-height:40px;font-size:18px;color:#333;font-weight:normal;}
+                           & p{font-size:12px;color:#999;line-height:45px;}
+                           & .sCanLink{
+                               text-align:left;padding-top:70px;
+                               & a{color:#ff6633;}
+                               & span{
+                                   float:right;
+                                   & a{float:left;padding-left:10px;color:#333;}
+                               }
+                           }
+                           
+                        }
+                       & .scanError{
+                           text-align:center;position:relative;
+                           & .tipImg{
+                               width:167px;height:200px;
+                               position:absolute;top:-25px;right:-30px;display:none;}
+                           & .scanErrorEwm{
+                               width:150px;height:150px;margin:20px auto 40px;position:relative;overflow:hidden;
+                               & img{width:100%;height:100%;}
+                               & .bj{width:150px;height:150px;
+                                   background-color:#000;position:absolute;
+                                   top:0;left:0;z-index:1;
+                                   filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;
+                               }
+                               & .info{width:150px;height:150px;
+                                   position:absolute;top:0;left:0;z-index:2;text-align:center;
+                                   & p{color:#fff;height:25px;line-height:25px;padding:40px 0 15px;}
+                                   &  a{display:inline-block;width:86px;
+                                       height:23px;line-height:23px;text-align:center;
+                                       background-color:#e4393c;color:#fff;
+                                    }
+                                }
+                            }
+                            & .scanErrorTip{
+                                & i{display:block;float:left;
+                                    background-position:-270px -150px;width:33px;height:33px;
+                                    margin:1px 10px 0 65px;_display:inline;
+                                }
+                                & p{
+                                    float:left;color:#999;line-height:16px;text-align:left;
+                                    & em{color:#e4393c;font-style:normal;}
+                                }
+                                
+                            }
+                            & .sCanErroLink{
+                                padding-top:50px;text-align:right;
+                                & a{padding-left:10px;color:#333;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    & .jx-main-bg.regBg{ 
+        background:url(../images/sign/bg.jpg) repeat-x scroll left top;
+        padding-top: 70px;
+        .jx-regBox{ 
+            height:450px; 
+            width:994px; 
+            position:relative;
+            & .jx-regTitBox{
+                width:280px; 
+                height:34px; 
+                position:absolute; 
+                right:15px; 
+                top:-37px;
+                & .jx-regTit{
+                    float:right; cursor:pointer; display:inline-block; padding:0 15px; height:34px; line-height:34px; color:#fff; font-size:14px; /*border:2px solid #ff9900;*/ border-bottom:0px; border-top-left-radius:5px; border-top-right-radius:5px; background:#ff9900; margin-left:6px; vertical-align:top;border-bottom: none;
+                    &:hover{
+                         color:#fff; text-decoration:none;
+                    }
+                    &.on{
+                        height:35px; border:2px solid #eaeaea; background:#fff; color:#ff9900; margin-bottom:-3px; position:relative;border-bottom: none; 
+                    }
+                }
+            }
+            & .regConWrap{
+                height: 500px;
+                width: 994px;
+                overflow: hidden;
+                position: relative;
+                & ul{
+                    width: 2000px;
+                    height: 450px;
+                    & li{
+                        &.regCon{
+                            float: left;
+                            width: 784px;
+                            padding: 26px 0 0 125px;
+                            & #password,& #repassword{
+                                width: 210px;
+                                padding-right: 45px;
+                            }
+                        }
+                        &.add{
+                            width: 784px;
+                            padding: 55px 0 0 125px;
+                            float: left;
+                        }
+                        & .regAccInfor{
+                            margin-top: 15px;
+                            & .regInput{
+                                width:255px; padding-left:45px; background:none; position:relative; z-index:3; font-weight:700;
+                            }
+                            & .userAccountNameByEmail{
+                                width: 215px;
+                                padding-right: 40px;
+                            }
+                            & .regLabel{
+                                width:230px; height:42px; line-height:42px; text-align:right; font-size:16px; padding-right:30px; float:left;
+                            }
+                            & .regInputBox{
+                                height:42px; width:302px; float:left; position:relative;
+                                & .regIconBox{
+                                    height:35px; width:45px; background:#fff; position:absolute; left:1px; top:2px; _top:3px; z-index:4;padding-top: 2px;
+                                }
+                                & .regIcon{
+                                    display:inline-block; height:26px; width:26px; position:absolute; left:12px; top:9px;
+                                    &.accName{ background-position:-48px 2px;}
+                                    &.accPass{ background-position:-77px 2px;}
+                                    &.accCap{ background-position:-422px 2px;}
+                                    &.accCheck{ background-position:-259px 1px;}
+                                }
+                                & .regValue{ display:inline-block; height:26px; line-height:26px; font-size:16px; color:#ccc; position:absolute; top:9px; left:45px; z-index:2; display:none;}
+                                & .regPointIcon{ 
+                                    display:inline-block; width:15px; height:15px; position:absolute; top:14px; *top:15px; _top:17px; right:10px; z-index:4;
+                                    &.regFalse{ background-position:-162px 0;}
+                                    &.regTrue{background-position:-139px 0;}
+                                }
+                                & .regPoint{ 
+                                    display:inline-block; height:20px; line-height:20px; color:#fff; padding:0 8px; position:absolute; top:37px; *top:38px; _top:41px; right:0px; z-index:5;
+                                    &.poiFalse{ background:#ed787f;}
+                                    &.poiTrue{ background:#ccc;}
+                                }
+                                & .regSub{ width:302px; height:42px; font-size:18px;color:#fff; border-radius:2px; border:none; background:#e10303; cursor:pointer;}
+                            }
+                            & .regCap{ display:block; width:80px; height:40px; position:absolute;top:0;right:3px;z-index:1; *top:2px; _top:2px; }
+                            & .regCapIcon{ display:block; width:80px; height:40px; background-position:188px 100px; position:absolute; top:0; *top:2px; _top:2px; right:3px; cursor:pointer; z-index:3;line-height: 40px;text-align: center;font-size: 18px;}
+                            & .regInputChe{ width:101px; padding-left:45px; background:none; position:relative; z-index:3; font-weight:700;}
+                            & .checkButBox{ width:148px; height:42px; position:absolute; top:0; *top:1px; _top:2px; right:0; z-index:3;
+                                &.loginRegbd{width:116px;}
+                                & .regCheckBut{ display:inline-block; width:146px; height:40px; line-height:40px; font-size:12px; text-align:center; font-weight:normal; border:1px solid #ccc;background-color:#eaeaea; cursor:pointer;border-radius:3px;
+                                    & em{font-style:normal; padding:0 5px; display:inline-block; color:#cc0000;}
+                                    & del{ text-decoration: none; font-style:normal; color:#cc0000; padding-right:3px;}
+                                }
+                                & .regCheckBut.logregCheckBtn{width:114px;}
+                            }
+                        }
+                        & .regAccBut{
+                            margin:8px 0 0 260px;
+                            & .regInputBox .regSub{ width:302px; height:42px; font-size:18px; color:#fff; border-radius:2px; border:none; background:#e10303; cursor:pointer;}
+                            & .regAgreeBox{ 
+                                line-height:22px; width:302px; position:relative; 
+                                & .regAgrInput{ height:auto; border:none;}
+                                & .regAgree{ 
+                                    display:inline-block; color:#999; margin-left:10px; margin-top:12px; margin-bottom:9px;
+                                    a{ 
+                                        color:#0066cc;
+                                        &:hover{
+                                            color:#0066cc;
+                                        }
+                                    }
+                                }
+                            }
+                            & .regAgreePoint{ color:#cc0000; padding-left:24px; *padding-left:30px; _padding-left:31px;}
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+    
+}
+
+
+
+
+
+
+
