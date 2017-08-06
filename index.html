@@ -1,13 +1,1090 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>酒仙网-白酒、红酒、洋酒、保健酒、黄酒、酒具官方旗舰店</title>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		
+		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/index-base.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	</head>
+
 	<body>
-		<!--头部-->
-		<div></div>
+		<!--页头-->
+		<div class="topHeader">
+			<div class="topHeaderCon">
+				<div class="topHeaderLeft">
+					<div class="clearfix">
+						<p class="greeting">欢迎来酒仙网！</p>
+						<a href="logIn.html">请登录</a>
+						<a href="signIn.html">免费注册</a>
+					</div>
+				</div>
+				<div class="topHeaderRight">
+					<ul>
+						<li class="hd-n1 dropTitle">
+							<div class="myJiuxian">
+								<a href="#">我的酒仙</a><s class="publicIcon"></s></div>
+							<div class="myJiuxianBox dropTitleBox clearfix">
+								<a href="javascript:;" target="_blank" rel="nofollow">我的订单</a>
+								<a href="javascript:;" target="_blank" rel="nofollow">物流跟踪</a>
+								<a href="javascript:;" target="_blank" rel="nofollow">我的优惠券</a>
+							</div>
+						</li>
+						<li class="hd-n2">
+							<a href="javascript:;" target="_blank" rel="nofollow">CEO邮箱</a>
+						</li>
+						<li class="hd-n3"><i class="publicIcon"></i>
+							<a href="javascript:;" target="_blank" rel="nofollow">购物车<b class="qty jx_car_num">6</b>件</a>
+						</li>
+						<li class="hd-n4">
+							<a href="javascript:;" target="_blank">CLUB会员</a><s></s></li>
+						<li class="hd-n6">
+							<a href="javascript:;" target="_blank">招商入驻</a><s></s></li>
+						<li class="hd-n5">
+							<a href="javascript:;" target="_blank"><i class="publicIcon"></i>手机逛酒仙</a><s></s>
+							<div class="erm2015922"><img alt="手机酒仙网" src="images/index/jxPho-code.jpg" width="80" height="80"></div>
+						</li>
+						<li class="hd-n7 dropTitle">
+							<div class="subNav"><i class="publicIcon"></i>
+								<a href="javascript:;">网站导航</a><s class="publicIcon"></s></div>
+							<div class="subNavBox dropTitleBox">
+								<div class="subNav-item  frist ">
+									<div class="snItem-tit">
+										<h3>购物</h3></div>
+									<div class="snItem-con snThere">
+										<a href="hjavascript:;" target="_blank">白酒</a>
+										<a href="javascript:;" target="_blank">葡萄酒</a>
+										<a href="javascript:;" target="_blank">洋酒</a>
+										<a href="javascript:;" target="_blank">啤酒</a>
+										<a href="javascript:;" target="_blank">保健酒</a>
+										<a href="javascript:;" target="_blank">黄酒</a>
+									</div>
+								</div>
+								<div class="subNav-item  bg ">
+									<div class="snItem-tit">
+										<h3>活动</h3></div>
+									<div class="snItem-con snThere">
+										<a href="javascript:;" target="_blank">进口馆</a>
+										<a href="javascript:;" target="_blank">整箱套装</a>
+										<a href="javascript:;" target="_blank">清仓</a>
+										<a href="javascript:;" target="_blank">闪团</a>
+										<a href="javascript:;" target="_blank">新品发现</a>
+										<a href="javascript:;" target="_blank">值得买</a>
+									</div>
+								</div>
+								<div class="subNav-item  ">
+									<div class="snItem-tit">
+										<h3>其他</h3></div>
+									<div class="snItem-con snThere">
+										<a href="javascript:;" target="_blank">会员中心</a>
+										<a href="javascript:;" target="_blank">社区</a>
+										<a href="javascript:;" target="_blank">常见问题</a>
+										<a href="javascript:;" target="_blank">礼品卡</a>
+										<a href="javascript:;" target="_blank">招商入驻</a>
+									</div>
+								</div>
+								<div class="subNav-item bg">
+									<p class="sn-Tel"><span>咨询热线：</span><b>400-617-9999</b></p>
+								</div>
+							</div>
+						</li>
+						<li class="hd-n8 dropTitle">
+							<div class="cusService"><i class="publicIcon"></i>
+								<a href="javascript:;" rel="nofollow">客户服务</a><s class="publicIcon"></s></div>
+							<div class="cusServiceBox dropTitleBox clearfix">
+								<a href="http://help.jiuxian.com/view-2-114.htm" target="_blank" rel="nofollow">常见问题</a>
+								<a href="http://help.jiuxian.com/view-3-100.htm#delivery_04" target="_blank" rel="nofollow">配送说明</a>
+								<a href="javascript:;" target="_blank" rel="nofollow">售后服务</a>
+							</div>
+						</li>
+						<li class="hd-n9"><span>客服热线</span><b class="servPhone">400-617-9999</b></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="topFocusBox">
+			<a href="#" style="background: url(images/index/banner.jpg) no-repeat top center scroll;"></a>
+		</div>
+		<div class="midHeader" style="background: rgb(255,255,255) none repeat scroll 0% 0%;">
+			<div class="midHeaderCon">
+				<div class="headerLogo">
+					<a href="index.html" target="_blank">
+						<img src="images/logo.jpg" />
+					</a>
+					<a href="javascript:;">
+						<img src="images/index/t1.gif" />
+					</a>
+				</div>
+				<div class="headerSearch">
+					<div class="searchHome">
+						<form>
+							<input type="text" id="wd" placeholder="第8届全球酒仙狂欢节8月8日20点开启" class="search-form" />
+							<input type="button" id="btn" value="搜&nbsp;索" class="search-btn" />
+						</form>
+					</div>
+					<div class="hotWords">
+						<p>
+							<a href="javascript:;">80万瓶美酒1元秒</a>
+							<a href="javascript:;">茅台</a>
+							<a href="javascript:;">五粮液</a>
+							<a href="javascript:;">剑南春</a>
+							<a href="javascript:;">泸州老窖</a>
+							<a href="javascript:;">洋河</a>
+							<a href="javascript:;">拉菲</a>
+							<a href="javascript:;">奔富</a>
+							<a href="javascript:;">黄尾袋鼠</a>
+							<a href="javascript:;">奔富</a>
+						</p>
+					</div>
+				</div>
+				<div class="headerProtect">
+					<a rel="nofollow"></a>
+					<a rel="nofollow"></a>
+					<a rel="nofollow"></a>
+				</div>
+			</div>
+		</div>
+		<!--页头end-->
+		<!--导航-->
+		<div class="navWrap">
+			<div class="nav">
+				<!--竖导航-->
+				<div class="navCategoryMenu">
+					<h2>全部商品分类</h2>
+					<ul class="categoryBox clearfix">
+						<script id="nav" type="text/html">
+							{{each navList as value}}
+							<li id="_nowactstr1" class="catItem">
+
+								<div class="catItemCon">
+									<h3>
+										<i></i>
+										{{item.title}}
+									</h3>
+								</div>
+							</li>
+						</script>
+					</ul>
+				</div>
+				<!--竖导航end-->
+				<!--横导航-->
+				<!--<div class="navList">
+					
+				</div>-->
+				<!--横导航end-->
+				<!--<div class="navPromotion">
+					
+				</div>-->
+			</div>
+		</div>
+
+		<!--导航end-->
+		<div class="homeMainbody">
+			<!--轮播-->
+			<div class="mainBanner">
+				<div class="bigImg">
+					<ul class="bigUl" style="position: relative; width: 1263px; height: 470px;">
+						<li style="background: url(images/index/lb1.jpg) no-repeat scroll center 0;"></li>
+						<li style="background: url(images/index/lb2.jpg) no-repeat scroll center 0;"></li>
+						<li style="background: url(images/index/lb3.jpg) no-repeat scroll center 0;"></li>
+						<li style="background: url(images/index/lb4.jpg) no-repeat scroll center 0;"></li>
+						<li style="background: url(images/index/lb5.jpg) no-repeat scroll center 0;"></li>
+					</ul>
+				</div>
+				<div class="smallBtn">
+					<div class="smallUl">
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+					</div>
+				</div>
+			</div>
+			<div class="mainWrap">
+				<div class="mainBox">
+					<!--两侧背景图start-->
+					<div class="bgLeft">
+						<a href="javascript:;"></a>
+					</div>
+					<div class="bgRight">
+						<a href="javascript:;"></a>
+					</div>
+					<!--两侧背景图end-->
+					<!--楼层悬浮start-->
+					<div class="fixDiv">
+
+					</div>
+					<!--楼层悬浮end-->
+					<!--疯狂抢购start-->
+					<div id="crazySale" class="lay_1 clearfix contentFirst">
+						<div class="indexTabBox">
+							<div class="indexTabNav">
+								<ul>
+									<li class="n1 on">疯狂抢购</li>
+									<li class="n2">整箱囤货</li>
+									<li class="n3">爆款精选</li>
+									<li class="n4">口粮聚惠</li>
+									<li class="n5">大牌特卖</li>
+								</ul>
+							</div>
+							<div class="indexTabConWrap">
+								<div class="indexTabCon">
+									<ul class="clearfix">
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t1.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="indexTabCon" style="display: none;">
+									<ul class="clearfix">
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="indexTabCon" style="display: none;">
+									<ul class="clearfix">
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t3.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="indexTabCon" style="display: none;">
+									<ul class="clearfix">
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t4.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="indexTabCon" style="display: none;">
+									<ul class="clearfix">
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+										<li>
+											<div class="indexTabPic">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">
+													<img src="images/index/t2.jpg" />
+												</a>
+											</div>
+											<div class="indexTabTit">
+												<a href="javascript:;" title="50°西凤·御宴酒（精装版）500ml">50°西凤·御宴酒（精装版）500ml</a>
+											</div>
+											<div class="indexTabPrice homegoodPrice">
+												<strong>￥39.00</strong>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="indexTabRight">
+							<div class="indexTabNew">
+								<div class="indexTabNewNav">
+									<ul>
+										<li class="s1 on">公告信息</li>
+										<li class="s2">促销信息</li>
+									</ul>
+								</div>
+								<div class="indexTabNewCon">
+									<div name="__home_gonggao" class="indexTabNewList">
+										<!-- 公告信息Start -->
+										<ul class="clearfix">
+											<li>
+												<a href="javascript:;" target="_blank" title="国际啤酒节中奖名单公布" rel="nofollow">国际啤酒节中奖名单公布</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="山东省烟台市长岛地区酒水配送公告" rel="nofollow">山东省烟台市长岛地区酒水配送公告</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="伊力特品牌日奖品公告" rel="nofollow">伊力特品牌日奖品公告</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="618主会场送手表活动" rel="nofollow">618主会场送手表活动</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="古井贡大牌日活动公告" rel="nofollow">古井贡大牌日活动公告</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="五洲海购特卖日中奖名单公布" rel="nofollow">五洲海购特卖日中奖名单公布</a>
+											</li>
+										</ul>
+										<!-- 公告信息End -->
+									</div>
+									<div name="__home_cuxiao" class="indexTabNewList" style="display:none;">
+										<!-- 促销信息文字广告Start -->
+										<ul class="clearfix">
+											<li>
+												<a href="javascript:;" target="_blank" title="1元秒名酒" rel="nofollow">1元秒名酒</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="整箱钜惠" rel="nofollow">整箱钜惠</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="酒鬼酒特卖 力度空前" rel="nofollow">酒鬼酒特卖 力度空前</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="新旧世界，加9元得酒架" rel="nofollow">新旧世界，加9元得酒架</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="婚庆喜酒" rel="nofollow">婚庆喜酒</a>
+											</li>
+											<li>
+												<a href="javascript:;" target="_blank" title="红洋酒分会场" rel="nofollow">红洋酒分会场</a>
+											</li>
+										</ul>
+										<!-- 促销信息文字广告End -->
+									</div>
+								</div>
+							</div>
+							<div class="indexTuanBox mt10 sliderBox">
+								<div name="__home_youlun1" class="indexTuanList">
+									<ul class="indexUl">
+										<li>
+											<a href="javascript:;" target="_blank" rel="nofollow"><img src="images/index/smallLb1.png" _src="" width="268" height="157"></a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank" rel="nofollow"><img src="images/index/smallLb2.png" _src="" width="268" height="157"></a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank" rel="nofollow"><img src="images/index/smallLb3.png" _src="" width="268" height="157"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="btnBox smallUl">
+									<span class="btnBg">
+										<em class="on">1</em>
+										<em class="">2</em>
+										<em class="">3</em>
+									</span>
+								</div>
+							</div>
+							<div class="indexTuanBox mt10 sliderBox" style="height: 178px;">
+								<div name="__home_youlun1" class="indexTuanList" style="height: 178px;">
+									<ul class="indexUl1">
+										<li>
+											<a href="javascript:;" target="_blank" rel="nofollow"><img src="images/index/smallLb3.png" _src="" width="268" height="178"></a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank" rel="nofollow"><img src="images/index/smallLb2.png" _src="" width="268" height="178"></a>
+										</li>
+										<li>
+											<a href="javascript:;" target="_blank" rel="nofollow"><img src="images/index/smallLb1.png" _src="" width="268" height="178"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="btnBox smallUl">
+									<span class="btnBg1">
+										<em class="on">1</em>
+										<em class="">2</em>
+										<em class="">3</em>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript">
+						$(function(){
+							
+							var j = 0;
+							var Timer = null;
+							$(".indexTuanList .indexUl").append($(".indexTuanList .indexUl li:first-child").clone());
+							$(".indexTuanList .indexUl1").append($(".indexTuanList .indexUl1 li:first-child").clone())
+							var indexUlList = $(".indexTuanList .indexUl");
+							var indexUlList1 = $(".indexTuanList .indexUl1");
+							var indexLiList = $(".indexTuanList .indexUl li");
+							var indexLiList1 = $(".indexTuanList .indexUl1 li");
+							function Move(){
+								j++;
+								if(j == indexLiList.length){
+									//$(".btnBg").find("em").eq(0).addClass("on").siblings().removeClass("on");
+									j = 1;
+									indexUlList.css({"left":0});
+									indexUlList1.css({"left":0});
+								}
+								$(".btnBg").find("em").eq(j).addClass("on").siblings().removeClass("on");
+								$(".btnBg1").find("em").eq(j).addClass("on").siblings().removeClass("on");
+								$(".indexTuanList ul").stop().animate({"left":-j*268},1000);
+								$(".indexTuanList ul1").stop().animate({"left":-j*268},1000);
+								
+							}
+							Move();
+							Timer = setInterval(function(){
+								Move();
+							},1500)
+						})
+					</script>
+					<!--疯狂抢购end-->
+					<!--优惠推荐start-->
+					<div class="Recommend mt30 floorBanner1" style="background: url(images/index/indexAdBoxBg.jpg) no-repeat top center;">
+						<p>
+							<a href="javascript:;">
+								<img src="images/index/indexAdBox1.png"/>
+							</a>
+						</p>
+						<p>
+							<a href="javascript:;">
+								<img src="images/index/indexAdBox2.png"/>
+							</a>
+						</p>
+						<p>
+							<a href="javascript:;">
+								<img src="images/index/indexAdBox3.png"/>
+							</a>
+						</p>
+					</div>
+					<!--优惠推荐end-->
+					<!--限时秒杀start-->
+					<div id="countDownPanel" class="Lay_4 mt10 clearfix">
+						<div class="raceBox">
+							
+						</div>
+					</div>
+					<!--限时秒杀end-->
+					<!--楼层start-->
+					<div class="loadFirst">
+
+					</div>
+					<div class="loadSecond">
+
+					</div>
+					<div class="loadThird">
+
+					</div>
+
+					<!--楼层end-->
+				</div>
+			</div>
+		</div>
+
+		<!---->
 	</body>
+
 </html>

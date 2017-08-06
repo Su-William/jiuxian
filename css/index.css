@@ -1,0 +1,317 @@
+.homeMainbody .mainWrap {
+  width: 100%;
+  background: #f9f9f9;
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative; }
+  .homeMainbody .mainWrap .mainBox {
+    width: 1200px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    position: relative; }
+    .homeMainbody .mainWrap .mainBox .bgLeft {
+      width: 100%;
+      position: absolute;
+      left: -500px;
+      top: 0;
+      height: 1000px;
+      z-index: 0; }
+      .homeMainbody .mainWrap .mainBox .bgLeft a {
+        background: url(../images/index/bgL.png) no-repeat right top; }
+    .homeMainbody .mainWrap .mainBox .bgRight {
+      width: 100%;
+      position: absolute;
+      right: -500px;
+      height: 1000px;
+      top: 0;
+      z-index: 0; }
+      .homeMainbody .mainWrap .mainBox .bgRight a {
+        float: right;
+        background: url(../images/index/bgR.png) no-repeat left top; }
+    .homeMainbody .mainWrap .mainBox .bgRight a, .homeMainbody .mainWrap .mainBox .bgLeft a {
+      width: 500px;
+      height: 1000px;
+      display: block;
+      outline: none; }
+    .homeMainbody .mainWrap .mainBox .fixDiv {
+      position: fixed;
+      _display: none;
+      width: 40px;
+      height: 205px;
+      left: 50%;
+      margin-left: -550px;
+      top: 300px;
+      z-index: 0;
+      opacity: 0;
+      transform: scaleY(1.5);
+      -webkit-transform: scaleY(1.5);
+      -moz-transform: scaleY(1.5);
+      -o-transform: scaleY(1.5);
+      -ms-transform: scaleY(1.5);
+      transition: .5s transform, .5s opacity;
+      -o-transition: .5s transform, .5s opacity;
+      -moz-transition: .5s transform, .5s opacity;
+      -webkit-transition: .5s transform, .5s opacity;
+      -ms-transition: .5s transform, .5s opacity; }
+      .homeMainbody .mainWrap .mainBox .fixDiv div {
+        position: absolute;
+        left: 0;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer; }
+      .homeMainbody .mainWrap .mainBox .fixDiv a {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 30px;
+        line-height: 30px;
+        text-decoration: none;
+        cursor: pointer;
+        overflow: hidden; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorOne {
+        top: 0; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorTwo {
+        top: 31px; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorThree {
+        top: 62px; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorFour {
+        top: 93px; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorOneOn {
+        background: #d43d4e;
+        z-index: 1;
+        display: none; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorTwoOn {
+        background: #c2782f;
+        z-index: 1;
+        display: none; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorThreeOn {
+        background: #296693;
+        z-index: 1;
+        display: none; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorFourOn {
+        background: #6c9d0e;
+        z-index: 1;
+        display: none; }
+      .homeMainbody .mainWrap .mainBox .fixDiv .floorBg {
+        background: #f1f1f1;
+        z-index: 2; }
+    .homeMainbody .mainWrap .mainBox .lay_1 {
+      width: 100%;
+      position: relative;
+      z-index: 1; }
+      .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox {
+        float: left;
+        width: 920px;
+        background: #fff;
+        height: 499px; }
+        .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav {
+          width: 920px;
+          overflow: hidden;
+          height: 38px;
+          position: relative; }
+          .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav ul li {
+            width: 198px;
+            border-left: 1px solid #ececec;
+            border-right: 1px solid #ececec;
+            border-bottom: 1px solid #ececec;
+            border-top: 2px solid #ececec;
+            height: 35px;
+            position: absolute;
+            top: 0;
+            cursor: pointer;
+            text-align: center;
+            line-height: 35px;
+            font-size: 16px;
+            color: #666;
+            background: #f9f9f9; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav ul li.n1 {
+              left: 0; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav ul li.n2 {
+              left: 180px; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav ul li.n3 {
+              left: 360px; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav ul li.n4 {
+              left: 540px;
+              width: 178px; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav ul li.n5 {
+              left: 720px; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabNav ul li.on {
+              width: 198px;
+              border-top: 2px solid #cc0000;
+              border-bottom: 1px solid #fff;
+              height: 35px;
+              color: #cc0000;
+              line-height: 35px;
+              background: #fff; }
+        .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap {
+          border: 1px solid #ececec;
+          border-top: none;
+          height: 460px;
+          overflow: hidden; }
+          .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon {
+            width: 910px;
+            height: 442px;
+            margin: 0 auto;
+            padding: 10px 0;
+            overflow: hidden;
+            position: relative; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon li {
+              float: left;
+              width: 174px;
+              margin-top: 20px; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon li .indexTabPic {
+                heigth: 160px;
+                width: 160px;
+                padding: 0 7px;
+                position: relative;
+                z-index: 1; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon li .indexTabTit {
+                width: 170px;
+                padding: 0 2px;
+                height: 18px;
+                line-height: 18px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon li .indexTabPrice {
+                width: 170px;
+                padding: 0 2px;
+                height: 18px;
+                line-height: 18px;
+                overflow: hidden;
+                white-space: nowrap; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon li .indexTabPrice strong, .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon li.indexTabPrice del {
+                font-size: 12px;
+                color: #CD0100;
+                font-weight: normal;
+                line-height: 18px;
+                display: inline;
+                vertical-align: middle; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabBox .indexTabConWrap .indexTabCon li .indexTabPrice del {
+                font-size: 12px;
+                color: #666;
+                padding-left: 20px; }
+      .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight {
+        width: 270px;
+        float: right;
+        height: 500px; }
+        .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew {
+          width: 270px;
+          height: 140px;
+          background: #fff;
+          overflow: hidden; }
+          .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewNav {
+            height: 35px;
+            position: relative; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewNav li {
+              font-size: 16px;
+              color: #666;
+              text-align: center;
+              width: 134px;
+              height: 35px;
+              border: 1px solid #ececec;
+              line-height: 35px;
+              position: absolute;
+              top: 0;
+              cursor: pointer;
+              background: #f9f9f9; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewNav li.s1 {
+                left: 0; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewNav li.s2 {
+                left: 135px;
+                width: 133px; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewNav li.on {
+                border-top: 2px solid #c41921;
+                border-bottom: 1px solid #fff;
+                height: 34px;
+                color: #cc0000;
+                line-height: 33px;
+                background: #fff; }
+          .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewCon {
+            border: 1px solid #ececec;
+            border-top: none;
+            height: 94px;
+            padding-top: 10px; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewCon .indexTabNewList {
+              width: 258px;
+              margin: 0 auto; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewCon .indexTabNewList li {
+                float: left;
+                width: 114px;
+                margin-left: 10px;
+                display: inline;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                line-height: 28px; }
+                .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewCon .indexTabNewList li a {
+                  color: #666; }
+                .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTabNew .indexTabNewCon .indexTabNewList li a:hover {
+                  color: #ff7700; }
+        .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox {
+          width: 268px;
+          height: 157px;
+          border: 1px solid #ececec;
+          background: #fff;
+          margin-top: 10px;
+          overflow: hidden;
+          position: relative;
+          z-index: 1; }
+          .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .indexTuanList {
+            width: 268px;
+            height: 157px;
+            overflow: hidden;
+            position: relative; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .indexTuanList ul {
+              width: 10000px;
+              height: 157px;
+              position: absolute; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .indexTuanList ul li {
+                float: left;
+                width: 268px;
+                height: 157px; }
+          .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .btnBox {
+            position: absolute;
+            bottom: 10px;
+            left: 15px;
+            width: 100%;
+            height: 12px;
+            overflow: hidden;
+            z-index: 2;
+            font-size: 0; }
+            .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .btnBox .btnBg, .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .btnBox .btnBg1 {
+              display: inline-block;
+              height: 17px; }
+              .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .btnBox .btnBg em, .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .btnBox .btnBg1 em {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                background: #cccccc;
+                border-radius: 50%;
+                margin: 0 5px;
+                overflow: hidden;
+                cursor: pointer; }
+                .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .btnBox .btnBg em.on, .homeMainbody .mainWrap .mainBox .lay_1 .indexTabRight .indexTuanBox .btnBox .btnBg1 em.on {
+                  background: #6d81ae; }
+    .homeMainbody .mainWrap .mainBox .Recommend {
+      height: 130px;
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      overflow: hidden; }
+      .homeMainbody .mainWrap .mainBox .Recommend p {
+        width: 290px;
+        height: 126px;
+        float: left;
+        margin: 0 55px;
+        _display: inline; }
+        .homeMainbody .mainWrap .mainBox .Recommend p img {
+          width: 290px;
+          height: 126px; }
+
+/*# sourceMappingURL=index.css.map */
