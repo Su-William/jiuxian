@@ -9,6 +9,7 @@
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" type="text/css" href="css/index-base.css" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	</head>
 
@@ -1011,8 +1012,7 @@
 						</div>
 					</div>
 					<script type="text/javascript">
-						$(function(){
-							
+						$(function() {
 							var j = 0;
 							var Timer = null;
 							$(".indexTuanList .indexUl").append($(".indexTuanList .indexUl li:first-child").clone());
@@ -1021,24 +1021,32 @@
 							var indexUlList1 = $(".indexTuanList .indexUl1");
 							var indexLiList = $(".indexTuanList .indexUl li");
 							var indexLiList1 = $(".indexTuanList .indexUl1 li");
-							function Move(){
+
+							function Move() {
 								j++;
-								if(j == indexLiList.length){
+								if (j == indexLiList.length) {
 									//$(".btnBg").find("em").eq(0).addClass("on").siblings().removeClass("on");
 									j = 1;
-									indexUlList.css({"left":0});
-									indexUlList1.css({"left":0});
+									indexUlList.css({
+										"left": 0
+									});
+									indexUlList1.css({
+										"left": 0
+									});
 								}
 								$(".btnBg").find("em").eq(j).addClass("on").siblings().removeClass("on");
 								$(".btnBg1").find("em").eq(j).addClass("on").siblings().removeClass("on");
-								$(".indexTuanList ul").stop().animate({"left":-j*268},1000);
-								$(".indexTuanList ul1").stop().animate({"left":-j*268},1000);
-								
+								$(".indexTuanList ul").stop().animate({
+									"left": -j * 268
+								}, 1000);
+								$(".indexTuanList ul1").stop().animate({
+									"left": -j * 268
+								}, 1000);
 							}
 							Move();
-							Timer = setInterval(function(){
+							Timer = setInterval(function() {
 								Move();
-							},1500)
+							}, 1500)
 						})
 					</script>
 					<!--疯狂抢购end-->
@@ -1046,17 +1054,17 @@
 					<div class="Recommend mt30 floorBanner1" style="background: url(images/index/indexAdBoxBg.jpg) no-repeat top center;">
 						<p>
 							<a href="javascript:;">
-								<img src="images/index/indexAdBox1.png"/>
+								<img src="images/index/indexAdBox1.png" />
 							</a>
 						</p>
 						<p>
 							<a href="javascript:;">
-								<img src="images/index/indexAdBox2.png"/>
+								<img src="images/index/indexAdBox2.png" />
 							</a>
 						</p>
 						<p>
 							<a href="javascript:;">
-								<img src="images/index/indexAdBox3.png"/>
+								<img src="images/index/indexAdBox3.png" />
 							</a>
 						</p>
 					</div>
@@ -1064,9 +1072,196 @@
 					<!--限时秒杀start-->
 					<div id="countDownPanel" class="Lay_4 mt10 clearfix">
 						<div class="raceBox">
-							
+							<div class="raceBox">
+								<div class="titlebox">
+									<div class="title_2"><i class="newIndexIcon"></i><span>优惠推荐</span></div>
+									<div class="rightNavBox">
+										<span class="on">4</span>
+										<span></span>
+										<span></span>
+									</div>
+								</div>
+								<div class="raceListWrap">
+									<i class="newIndexIcon raceArrow raceLeft"></i>
+									<i class="newIndexIcon raceArrow raceRight"></i>
+									<div class="receBoxs" style="margin-left: 0px;">
+										<div class="raceList" waitpro="0">
+											<ul class="clearfix">
+												<li product-box="22000">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="52°全兴福运双星500ml"><img src="images/index/raceListPic1.jpg" width="160" height="160" alt="52°全兴福运双星500ml"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="52°全兴福运双星500ml">52°全兴福运双星500ml</a></div>
+													<div class="raceListPrice"><strong goodid="22000" class="jxIndex_nowPrice_22000">￥49.00</strong></div>
+												</li>
+												<li product-box="33982">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）"><img src="images/index/raceListPic2.jpg" width="160" height="160" alt="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）">53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）</a></div>
+													<div class="raceListPrice"><strong goodid="33982" class="jxIndex_nowPrice_33982">￥158.00</strong></div>
+												</li>
+												<li product-box="37907">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="40°法国进口拿破仑爵士VSOP白兰地700ml"><img src="images/index/raceListPic3.jpg" width="160" height="160" alt="40°法国进口拿破仑爵士VSOP白兰地700ml"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="40°法国进口拿破仑爵士VSOP白兰地700ml">40°法国进口拿破仑爵士VSOP白兰地700ml</a></div>
+													<div class="raceListPrice"><strong goodid="37907" class="jxIndex_nowPrice_37907">￥78.00</strong></div>
+												</li>
+												<li product-box="28322">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°汾酒集团梅兰竹菊四君子1000ml*4"><img src="images/index/raceListPic4.jpg" width="160" height="160" alt="53°汾酒集团梅兰竹菊四君子1000ml*4"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°汾酒集团梅兰竹菊四君子1000ml*4">53°汾酒集团梅兰竹菊四君子1000ml*4</a></div>
+													<div class="raceListPrice"><strong goodid="28322" class="jxIndex_nowPrice_28322">￥299.00</strong></div>
+												</li>
+												<li product-box="42444">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°杏花村青花原浆1500ml（带底座）"><img src="images/index/raceListPic5.jpg" width="160" height="160" alt="53°杏花村青花原浆1500ml（带底座）"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°杏花村青花原浆1500ml（带底座）">53°杏花村青花原浆1500ml（带底座）</a></div>
+													<div class="raceListPrice"><strong goodid="42444" class="jxIndex_nowPrice_42444">￥99.00</strong></div>
+												</li>
+												<li product-box="32663">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋"><img src="images/index/raceListPic6.jpg" width="160" height="160" alt="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋">法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋</a></div>
+													<div class="raceListPrice"><strong goodid="32663" class="jxIndex_nowPrice_32663">￥169.00</strong></div>
+												</li>
+											</ul>
+										</div>
+										<div class="raceList" waitpro="0">
+											<ul class="clearfix">
+												<li product-box="22000">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="52°全兴福运双星500ml"><img src="images/index/raceListPic1.jpg" width="160" height="160" alt="52°全兴福运双星500ml"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="52°全兴福运双星500ml">52°全兴福运双星500ml</a></div>
+													<div class="raceListPrice"><strong goodid="22000" class="jxIndex_nowPrice_22000">￥49.00</strong></div>
+												</li>
+												<li product-box="33982">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）"><img src="images/index/raceListPic2.jpg" width="160" height="160" alt="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）">53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）</a></div>
+													<div class="raceListPrice"><strong goodid="33982" class="jxIndex_nowPrice_33982">￥158.00</strong></div>
+												</li>
+												<li product-box="37907">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="40°法国进口拿破仑爵士VSOP白兰地700ml"><img src="images/index/raceListPic3.jpg" width="160" height="160" alt="40°法国进口拿破仑爵士VSOP白兰地700ml"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="40°法国进口拿破仑爵士VSOP白兰地700ml">40°法国进口拿破仑爵士VSOP白兰地700ml</a></div>
+													<div class="raceListPrice"><strong goodid="37907" class="jxIndex_nowPrice_37907">￥78.00</strong></div>
+												</li>
+												<li product-box="28322">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°汾酒集团梅兰竹菊四君子1000ml*4"><img src="images/index/raceListPic4.jpg" width="160" height="160" alt="53°汾酒集团梅兰竹菊四君子1000ml*4"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°汾酒集团梅兰竹菊四君子1000ml*4">53°汾酒集团梅兰竹菊四君子1000ml*4</a></div>
+													<div class="raceListPrice"><strong goodid="28322" class="jxIndex_nowPrice_28322">￥299.00</strong></div>
+												</li>
+												<li product-box="42444">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°杏花村青花原浆1500ml（带底座）"><img src="images/index/raceListPic5.jpg" width="160" height="160" alt="53°杏花村青花原浆1500ml（带底座）"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°杏花村青花原浆1500ml（带底座）">53°杏花村青花原浆1500ml（带底座）</a></div>
+													<div class="raceListPrice"><strong goodid="42444" class="jxIndex_nowPrice_42444">￥99.00</strong></div>
+												</li>
+												<li product-box="32663">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋"><img src="images/index/raceListPic6.jpg" width="160" height="160" alt="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋">法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋</a></div>
+													<div class="raceListPrice"><strong goodid="32663" class="jxIndex_nowPrice_32663">￥169.00</strong></div>
+												</li>
+											</ul>
+										</div>
+										<div class="raceList" waitpro="0">
+											<ul class="clearfix">
+												<li product-box="22000">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="52°全兴福运双星500ml"><img src="images/index/raceListPic1.jpg" width="160" height="160" alt="52°全兴福运双星500ml"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="52°全兴福运双星500ml">52°全兴福运双星500ml</a></div>
+													<div class="raceListPrice"><strong goodid="22000" class="jxIndex_nowPrice_22000">￥49.00</strong></div>
+												</li>
+												<li product-box="33982">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）"><img src="images/index/raceListPic2.jpg" width="160" height="160" alt="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）">53°汾酒集团优级杏花村酒(升级版）500ml（双瓶装）</a></div>
+													<div class="raceListPrice"><strong goodid="33982" class="jxIndex_nowPrice_33982">￥158.00</strong></div>
+												</li>
+												<li product-box="37907">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="40°法国进口拿破仑爵士VSOP白兰地700ml"><img src="images/index/raceListPic3.jpg" width="160" height="160" alt="40°法国进口拿破仑爵士VSOP白兰地700ml"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="40°法国进口拿破仑爵士VSOP白兰地700ml">40°法国进口拿破仑爵士VSOP白兰地700ml</a></div>
+													<div class="raceListPrice"><strong goodid="37907" class="jxIndex_nowPrice_37907">￥78.00</strong></div>
+												</li>
+												<li product-box="28322">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°汾酒集团梅兰竹菊四君子1000ml*4"><img src="images/index/raceListPic4.jpg" width="160" height="160" alt="53°汾酒集团梅兰竹菊四君子1000ml*4"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°汾酒集团梅兰竹菊四君子1000ml*4">53°汾酒集团梅兰竹菊四君子1000ml*4</a></div>
+													<div class="raceListPrice"><strong goodid="28322" class="jxIndex_nowPrice_28322">￥299.00</strong></div>
+												</li>
+												<li product-box="42444">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="53°杏花村青花原浆1500ml（带底座）"><img src="images/index/raceListPic5.jpg" width="160" height="160" alt="53°杏花村青花原浆1500ml（带底座）"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="53°杏花村青花原浆1500ml（带底座）">53°杏花村青花原浆1500ml（带底座）</a></div>
+													<div class="raceListPrice"><strong goodid="42444" class="jxIndex_nowPrice_42444">￥99.00</strong></div>
+												</li>
+												<li product-box="32663">
+													<div class="raceListPic">
+														<a href="javascript:;" target="_blank" title="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋"><img src="images/index/raceListPic6.jpg" width="160" height="160" alt="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋"></a>
+													</div>
+													<div class="raceListTit"><a href="javascript:;" target="_blank" title="法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋">法国红酒法国拉菲珍藏波尔多红葡萄酒750ml双支装+双支礼袋</a></div>
+													<div class="raceListPrice"><strong goodid="32663" class="jxIndex_nowPrice_32663">￥169.00</strong></div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
+					<script type="text/javascript">
+						$(function() {
+							var i = 0;
+							$(".raceListWrap .raceRight").on("click", function() {
+								i++;
+								if (i == $(".raceList").length) {
+									i = i - 1;
+								}
+								move();
+							});
+							$(".raceListWrap .raceLeft").on("click", function() {
+								i--;
+								if (i == -1) {
+									i = 0;
+								}
+								move();
+							});
+							for (let i in $(".rightNavBox span")) {
+								$(".rightNavBox").find("span").eq(i).on("click", function() {
+									$(".receBoxs").stop().animate({
+										"left": -i * $(".raceList").width()
+									}, 1000);
+									$(".rightNavBox").find("span").eq(i).addClass("on").siblings().removeClass("on");
+								})
+							}
+
+							function move() {
+								$(".receBoxs").stop().animate({
+									"left": -i * $(".raceList").width()
+								}, 1000);
+								$(".rightNavBox").find("span").eq(i).addClass("on").siblings().removeClass("on");
+							}
+						})
+					</script>
 					<!--限时秒杀end-->
 					<!--楼层start-->
 					<div class="loadFirst">
@@ -1083,8 +1278,121 @@
 				</div>
 			</div>
 		</div>
-
-		<!---->
+		<div class="loadFifth" style="height: 490px;">
+			<!--页脚start-->
+			<div class="footer">
+				<div class="footerTopBox">
+					<div class="footerTop">
+						<div class="footerContact"><i class="publicIcon"></i><b>400-617-9999</b><span>客服热线</span><span>9:00-23:00</span><span>贴心服务</span></div>
+						<div class="footerTopRight">
+							<div class="ftRight-tit">优惠促销早知道</div>
+							<div class="ftRight-form"><input id="subscribe_email" type="text" value="" name=""><span>请输入您的邮箱地址</span><i class="publicIcon" id="subscribe_but"></i></div>
+						</div>
+					</div>
+					<div class="footerServices">
+						<ul class="clearfix">
+							<li class="servicesItme01">
+								<h3><i class="publicIcon"></i><span>新手入门</span></h3>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">购物保障</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">服务协议</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">发票说明</a></p>
+							</li>
+							<li class="servicesItme02">
+								<h3><i class="publicIcon"></i><span>常见问题</span></h3>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">红包使用</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">返现使用</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">兑换码</a></p>
+							</li>
+							<li class="servicesItme03">
+								<h3><i class="publicIcon"></i><span>配送说明</span></h3>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">配送时间</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">配送费用</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">配送范围</a></p>
+							</li>
+							<li class="servicesItme04">
+								<h3><i class="publicIcon"></i><span>支付方式</span></h3>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">货到付款</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">在线支付</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">线下支付</a></p>
+							</li>
+							<li class="servicesItme05">
+								<h3><i class="publicIcon"></i><span>售后服务</span></h3>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">品质保证</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">退换货政策</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">退换货流程</a></p>
+							</li>
+							<li class="servicesItme06">
+								<h3><i class="publicIcon"></i><span>特色服务</span></h3>
+								<p><a href="javascript:;" target="_blank">会员俱乐部</a></p>
+								<p><a href="javascript:;" target="_blank" rel="nofollow">企业客户</a></p>
+								<p><a target="_blank" href="javascript:;">酒仙社区</a></p>
+							</li>
+							<li class="jxMicroblogging">
+								<div class="item sinaMb">
+									<div class="sinaMbCom clearfix"><a href="javascript:;" target="_blank" rel="nofollow"><i class="publicIcon"></i></a><a href="javascript:;" target="_blank" rel="nofollow">酒仙新浪微博</a></div>
+								</div>
+								<div class="item weixin">
+									<div class="weixinCon clearfix" flag="show"><i class="publicIcon"></i><a id="jxWeixin" href="javascript:;" target="_blank" rel="nofollow">酒仙微信</a></div>
+									<div class="weixinCode" id="weixinCode" style="display: block;"><img src="http://misc.jiuxian.com/img/newIndexImg/weixin-code.jpg"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footerBotBox">
+					<div class="footerBot clearfix">
+						<div class="footerBotLeft">
+							<p class="footerInfo"><a href="http://help.jiuxian.com/view-0-105.htm" target="_blank" rel="nofollow">公司简介<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">管理团队<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">媒体报道<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">联系我们<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">招贤纳士<i></i></a>
+								<a href="javascript:;" target="_blank">友情链接<i></i></a>
+								<a href="javascript:;" target="_blank">网站地图<i></i></a>
+								<a href="javascript:;" target="_blank">品牌大全<i></i></a>
+							</p>
+							<p class="copyright">北京酒仙网络科技有限公司&nbsp;&nbsp;©&nbsp;&nbsp;酒仙网&nbsp;&nbsp;&nbsp;2011&nbsp;&nbsp;jiuxian.com&nbsp;&nbsp;All&nbsp;&nbsp;&nbsp;Rights&nbsp;Reserved&nbsp;&nbsp;&nbsp;<a href="javascript:;" target="_blank" rel="nofollow">京ICP备17043395号</a>&nbsp;&nbsp;&nbsp;京公网安备1101050188221</p>
+	
+							<p class="friendLink">
+								<span class="linkWidth">
+	<a href="http://www.damai.cn/" target="_blank">大麦网</a>|
+	<a href="http://www.1zw.com/" target="_blank">1折网</a>|
+	<a href="http://www.tiexue.net/" target="_blank">铁血军事</a>|
+	<a href="javascript:;" target="_blank">酒仙网白酒</a>|
+	<a href="javascript:;" target="_blank">酒仙网葡萄酒</a>|
+	<a href="javascript:;" target="_blank">开放平台招商</a>|
+	<a href="javascript:;" target="_blank">购酒论坛</a>|
+	<a href="http://www.s.cn/" target="_blank">名鞋库</a>|
+	<a href="javascript:;" target="_blank">酒仙网团购</a>|
+	</span>
+								<a href="javascript:;" target="_blank" class="moreLink">更多</a>
+							</p>
+							<p class="footerAddr" style="color:#999; line-height:22px;"><span>统一社会信用代码&nbsp;&nbsp;91110302306646672B&nbsp;&nbsp;&nbsp;食品流通许可证编号&nbsp;&nbsp;SP1103021310005747&nbsp;&nbsp;&nbsp;</span></p>
+							<p class="footerAddr" style="color:#999; line-height:22px; padding-bottom:7px;"><span>地址：北京市北京经济技术开发区经海五路58号院8幢4层</span></p>
+							<p class="footerPro" style="padding:11px 0 6px;">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+						</div>
+						<div class="footerBotCode">
+							<div class="jxPho-code">
+								<p class="codePic"><img alt="手机酒仙网" src="http://misc.jiuxian.com/img/newIndexImg/jxPho-code.jpg" width="80" height="80"></p>
+								<p class="codeText">手机酒仙网</p>
+							</div>
+							<div class="jkd-code">
+								<p class="codePic"><img alt="酒快到" src="http://misc.jiuxian.com/img/newIndexImg/jkd-code.jpg" width="80" height="80"></p>
+								<p class="codeText">酒快到</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--页脚end-->
+		</div>
+		<div class="rightSidebarBox">
+			<!--右边栏-->
+			<div class="rightSidebar" style="height: 318px;">
+				
+			</div>
+			<!--右边栏end-->
+		</div>
 	</body>
 
 </html>

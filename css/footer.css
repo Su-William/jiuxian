@@ -1,0 +1,222 @@
+.footer {
+  width: 100%;
+  background: #f9f9f9;
+  min-width: 1000px; }
+  .footer .footerTopBox {
+    width: 100%;
+    background: #333; }
+    .footer .footerTopBox .footerTop {
+      width: 1200px;
+      margin: 0 auto;
+      height: 84px;
+      border-bottom: 1px solid #494949; }
+      .footer .footerTopBox .footerTop .footerContact {
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        padding: 22px 0; }
+        .footer .footerTopBox .footerTop .footerContact i, .footer .footerTopBox .footerTop .footerContact b, .footer .footerTopBox .footerTop .footerContact span {
+          display: inline-block;
+          float: left; }
+        .footer .footerTopBox .footerTop .footerContact i {
+          width: 40px;
+          height: 40px;
+          background-position: -144px -22px;
+          margin-right: 18px; }
+        .footer .footerTopBox .footerTop .footerContact b {
+          font-size: 24px;
+          color: #c00;
+          margin-right: 25px; }
+        .footer .footerTopBox .footerTop .footerContact span {
+          font-size: 14px;
+          color: #fff;
+          margin-right: 8px; }
+      .footer .footerTopBox .footerTop .footerTopRight {
+        float: right;
+        height: 32px;
+        padding: 26px 0; }
+        .footer .footerTopBox .footerTop .footerTopRight .ftRight-tit {
+          float: left;
+          line-height: 32px;
+          color: #fff;
+          padding-right: 10px; }
+        .footer .footerTopBox .footerTop .footerTopRight .ftRight-form {
+          float: left;
+          width: 240px;
+          height: 30px;
+          border: 1px solid #494949;
+          position: relative;
+          z-index: 99; }
+          .footer .footerTopBox .footerTop .footerTopRight .ftRight-form input {
+            width: 190px;
+            height: 30px;
+            line-height: 30px;
+            padding: 0 6px;
+            background: 0;
+            border: 0;
+            float: left;
+            color: #fff;
+            outline: 0; }
+          .footer .footerTopBox .footerTop .footerTopRight .ftRight-form span {
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            color: #999;
+            position: absolute;
+            left: 6px;
+            top: 0; }
+          .footer .footerTopBox .footerTop .footerTopRight .ftRight-form i {
+            display: inline-block;
+            width: 22px;
+            height: 18px;
+            background-position: -133px 0;
+            margin: 6px 0 0 10px;
+            cursor: pointer;
+            float: left; }
+    .footer .footerTopBox .footerServices {
+      width: 1200px;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 30px 0 60px; }
+      .footer .footerTopBox .footerServices ul li {
+        width: 158px;
+        float: left;
+        display: inline;
+        margin-right: 15px; }
+        .footer .footerTopBox .footerServices ul li h3 {
+          font-weight: normal;
+          height: 26px;
+          line-height: 26px;
+          padding: 5px 0; }
+          .footer .footerTopBox .footerServices ul li h3 i {
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            margin-right: 9px;
+            float: left; }
+          .footer .footerTopBox .footerServices ul li h3 span {
+            display: inline-block;
+            width: 95px;
+            font-size: 14px;
+            color: #fff;
+            float: left;
+            overflow: hidden;
+            white-space: nowrap; }
+        .footer .footerTopBox .footerServices ul li p {
+          width: 95px;
+          height: 26px;
+          line-height: 26px;
+          padding-left: 35px;
+          overflow: hidden;
+          white-space: nowrap; }
+          .footer .footerTopBox .footerServices ul li p a, .footer .footerTopBox .footerServices ul li p a:hover {
+            color: #ccc; }
+        .footer .footerTopBox .footerServices ul li.jxMicroblogging {
+          margin-right: 0; }
+        .footer .footerTopBox .footerServices ul li.servicesItme01 h3 i {
+          background-position: 0 -131px; }
+        .footer .footerTopBox .footerServices ul li.servicesItme02 h3 i {
+          background-position: -30px -131px; }
+        .footer .footerTopBox .footerServices ul li.servicesItme03 h3 i {
+          background-position: -60px -131px; }
+        .footer .footerTopBox .footerServices ul li.servicesItme04 h3 i {
+          background-position: -90px -131px; }
+        .footer .footerTopBox .footerServices ul li.servicesItme05 h3 i {
+          background-position: -120px -131px; }
+        .footer .footerTopBox .footerServices ul li.servicesItme06 h3 i {
+          background-position: -150px -131px; }
+        .footer .footerTopBox .footerServices ul li .item {
+          width: 130px;
+          height: 28px;
+          line-height: 28px;
+          padding: 5px 0 13px;
+          position: relative; }
+          .footer .footerTopBox .footerServices ul li .item i {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            margin-right: 9px;
+            float: left;
+            cursor: pointer; }
+          .footer .footerTopBox .footerServices ul li .item a {
+            display: inline-block;
+            color: #fff;
+            float: left; }
+          .footer .footerTopBox .footerServices ul li .item a:hover {
+            color: #fff;
+            text-decoration: none; }
+        .footer .footerTopBox .footerServices ul li .weixin .weixinCode {
+          width: 84px;
+          height: 84px;
+          position: absolute;
+          left: 37px;
+          top: 35px;
+          display: none; }
+        .footer .footerTopBox .footerServices ul li .weixin i {
+          background-position: -103px -74px; }
+        .footer .footerTopBox .footerServices ul li .sinaMb i {
+          background-position: -140px -74px; }
+  .footer .footerBotBox {
+    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 40px; }
+    .footer .footerBotBox .footerBotLeft {
+      float: left;
+      width: 760px;
+      overflow: hidden; }
+      .footer .footerBotBox .footerBotLeft p {
+        line-height: 26px;
+        text-align: left; }
+      .footer .footerBotBox .footerBotLeft .footerInfo {
+        height: 16px;
+        margin-left: -9px;
+        padding: 4px 0; }
+        .footer .footerBotBox .footerBotLeft .footerInfo a {
+          display: inline-table;
+          height: 16px;
+          line-height: 16px;
+          padding: 0 8px;
+          overflow: hidden;
+          position: relative; }
+          .footer .footerBotBox .footerBotLeft .footerInfo a i {
+            width: 1px;
+            height: 12px;
+            background: #999;
+            font-size: 0;
+            position: absolute;
+            left: 0;
+            top: 2px; }
+      .footer .footerBotBox .footerBotLeft .footerPro {
+        color: #c00;
+        padding: 12px 0 6px; }
+      .footer .footerBotBox .footerBotLeft .copybot {
+        height: 47px; }
+        .footer .footerBotBox .footerBotLeft .copybot a {
+          display: inline-table;
+          margin-right: 5px; }
+    .footer .footerBotBox .footerBotCode {
+      width: 240px;
+      float: left;
+      text-align: center;
+      padding-top: 20px; }
+      .footer .footerBotBox .footerBotCode div {
+        float: left;
+        width: 80px;
+        display: inline;
+        margin-left: 40px; }
+        .footer .footerBotBox .footerBotCode div img {
+          width: 80px;
+          height: 80px; }
+        .footer .footerBotBox .footerBotCode div .codePic {
+          width: 80px;
+          height: 80px; }
+        .footer .footerBotBox .footerBotCode div .codeText {
+          width: 80px;
+          height: 24px;
+          line-height: 24px;
+          overflow: hidden;
+          white-space: nowrap;
+          padding-top: 5px; }
+
+/*# sourceMappingURL=footer.css.map */

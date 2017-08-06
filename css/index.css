@@ -1,3 +1,6 @@
+.newIndexIcon {
+  background: url(../images/index/newIndexIcon-24.png); }
+
 .homeMainbody .mainWrap {
   width: 100%;
   background: #f9f9f9;
@@ -313,5 +316,99 @@
         .homeMainbody .mainWrap .mainBox .Recommend p img {
           width: 290px;
           height: 126px; }
+    .homeMainbody .mainWrap .mainBox .Lay_4 {
+      background: #fff;
+      z-index: 1;
+      position: relative; }
+      .homeMainbody .mainWrap .mainBox .Lay_4 .titlebox {
+        height: 40px;
+        line-height: 40px;
+        background: #f9f9f9;
+        padding: 0 3px; }
+        .homeMainbody .mainWrap .mainBox .Lay_4 .titlebox .title_2 {
+          margin: 10px 0 0 0;
+          float: left;
+          display: inline;
+          height: 20px;
+          line-height: 20px;
+          font-size: 0; }
+          .homeMainbody .mainWrap .mainBox .Lay_4 .titlebox .title_2 i {
+            background-position: 0 0;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            vertical-align: middle; }
+          .homeMainbody .mainWrap .mainBox .Lay_4 .titlebox .title_2 span {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 17px;
+            color: #333;
+            margin-left: 10px; }
+        .homeMainbody .mainWrap .mainBox .Lay_4 .titlebox .rightNavBox {
+          float: right;
+          display: inline;
+          height: 9px;
+          margin-top: 20px;
+          font-size: 0;
+          line-height: 0; }
+          .homeMainbody .mainWrap .mainBox .Lay_4 .titlebox .rightNavBox span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 9px;
+            height: 9px;
+            overflow: hidden;
+            background: #cccccc;
+            margin-left: 14px;
+            cursor: pointer; }
+          .homeMainbody .mainWrap .mainBox .Lay_4 .titlebox .rightNavBox .on {
+            background: #cc0000; }
+      .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap {
+        width: 1198px;
+        border: 1px solid #ececec;
+        position: relative;
+        overflow: hidden; }
+        .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .raceArrow {
+          width: 27px;
+          height: 56px;
+          display: block;
+          position: absolute;
+          top: 100px;
+          z-index: 100;
+          cursor: pointer; }
+        .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .raceLeft {
+          background-position: 0 -28px;
+          left: 0; }
+        .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .raceRight {
+          background-position: -28px -28px;
+          right: 0; }
+        .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .receBoxs {
+          width: 10000px;
+          position: relative;
+          height: 257px; }
+          .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .receBoxs .raceList {
+            width: 1188px;
+            padding: 0 4px;
+            float: left;
+            overflow: hidden;
+            height: 257px; }
+            .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .receBoxs .raceList li {
+              float: left;
+              width: 198px;
+              padding: 20px 0 10px 0;
+              display: inline;
+              position: relative;
+              z-index: 1; }
+              .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .receBoxs .raceList li .raceListTit {
+                width: 190px;
+                padding: 0 4px;
+                height: 18px;
+                line-height: 18px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap; }
+              .homeMainbody .mainWrap .mainBox .Lay_4 .raceListWrap .receBoxs .raceList li .raceListPrice strong {
+                font-size: 15px;
+                color: #CD0100;
+                font-weight: normal; }
 
 /*# sourceMappingURL=index.css.map */
