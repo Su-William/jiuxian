@@ -32,10 +32,24 @@ $(function() {
 		}
 	)
 	
-	/*$.get("nav.json",function(data){
-		var html = template("nav",data);
+	$.get("./js/nav.json",function(data){
+		var html = template('busdf',data);
 		$(".categoryBox").html(html);
-	})*/
+	})
+	$(".categoryBox").on("mouseenter","li",function(){
+		$(".navCon").show();
+		console.log(this);
+		var index = $(this).index();
+		$.get("./js/nav-data.json",function(data){
+			console.log(index);
+			var html = template("menu",data[index]);
+			console.log(data[index]);
+			$(".navCon").html(html);
+		})
+	})
+	$(".navCategoryMenu").on("mouseleave",function(){
+		$(".navCon").hide();
+	})
 	
 	
 	/*轮播图start*/

@@ -316,10 +316,201 @@
     margin: 0 auto;
     position: relative;
     z-index: 99; }
+    .navWrap .nav .navCategoryMenu {
+      width: 190px;
+      float: left;
+      position: relative;
+      z-index: 200; }
+      .navWrap .nav .navCategoryMenu h2 {
+        width: 190px;
+        height: 34px;
+        line-height: 34px;
+        background: #ce171f;
+        text-align: center;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
+        font-weight: 600;
+        box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2); }
+      .navWrap .nav .navCategoryMenu .categoryBox {
+        width: 186px;
+        height: 468px;
+        border: 2px solid #c00;
+        border-top: 0;
+        position: absolute;
+        top: 34px;
+        left: 0;
+        z-index: 99; }
+        .navWrap .nav .navCategoryMenu .categoryBox li {
+          float: left;
+          width: 186px;
+          height: 81px;
+          background: #fff;
+          border-bottom: 1px solid #e4e4e4; }
+          .navWrap .nav .navCategoryMenu .categoryBox li:last-child {
+            height: 58px;
+            border-bottom: 0; }
+            .navWrap .nav .navCategoryMenu .categoryBox li:last-child .catItemCon {
+              height: 58px; }
+          .navWrap .nav .navCategoryMenu .categoryBox li.on {
+            background: #f1f1f1; }
+            .navWrap .nav .navCategoryMenu .categoryBox li.on .catItemCon {
+              border-left: 3px solid #ce171f; }
+          .navWrap .nav .navCategoryMenu .categoryBox li .catItemCon {
+            width: 163px;
+            height: 81px;
+            padding: 0 10px;
+            border-left: 3px solid #fff; }
+          .navWrap .nav .navCategoryMenu .categoryBox li h3 {
+            line-height: 32px;
+            height: 32px;
+            font-size: 14px;
+            overflow: hidden;
+            font-weight: normal;
+            padding-top: 3px;
+            color: #333; }
+            .navWrap .nav .navCategoryMenu .categoryBox li h3 i {
+              display: inline-block;
+              width: 14px;
+              height: 20px;
+              margin-right: 10px;
+              vertical-align: middle;
+              position: relative;
+              top: -1px; }
+              .navWrap .nav .navCategoryMenu .categoryBox li h3 i.seleWine {
+                background-position: -73px -260px; }
+            .navWrap .nav .navCategoryMenu .categoryBox li h3 a, .navWrap .nav .navCategoryMenu .categoryBox li h3 a:hover {
+              color: #333; }
+          .navWrap .nav .navCategoryMenu .categoryBox li .categoryCon {
+            width: 163px;
+            overflow: hidden;
+            position: relative; }
+            .navWrap .nav .navCategoryMenu .categoryBox li .categoryCon p {
+              width: 170px;
+              height: 20px;
+              overflow: hidden; }
+              .navWrap .nav .navCategoryMenu .categoryBox li .categoryCon p a {
+                display: inline-block;
+                height: 16px;
+                line-height: 16px;
+                padding: 0 4px;
+                color: #666;
+                float: left;
+                margin: 2px 3px 2px 0; }
+                .navWrap .nav .navCategoryMenu .categoryBox li .categoryCon p a.on {
+                  background: #f90;
+                  color: #fff;
+                  border-radius: 3px;
+                  line-height: 16px; }
+                  .navWrap .nav .navCategoryMenu .categoryBox li .categoryCon p a.on:hover {
+                    color: #fff; }
+              .navWrap .nav .navCategoryMenu .categoryBox li .categoryCon p a:hover {
+                color: #666;
+                text-decoration: none; }
+      .navWrap .nav .navCategoryMenu .navCon {
+        display: none; }
+        .navWrap .nav .navCategoryMenu .navCon .menuBox {
+          height: 470px;
+          position: absolute;
+          left: 188px;
+          top: 34px;
+          z-index: 301;
+          box-shadow: 0 0 4px 0 #ccc; }
+          .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon {
+            width: 400px;
+            height: 470px;
+            float: left;
+            display: inline-block;
+            background: #f1f1f1;
+            overflow: hidden; }
+            .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemTitle {
+              width: 60px;
+              float: left;
+              padding: 10px 10px 10px 20px;
+              line-height: 22px;
+              text-align: right;
+              border-top: 1px solid #f1f1f1; }
+              .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemTitle h4 {
+                font-size: 12px;
+                color: #333;
+                font-weight: normal;
+                overflow: hidden;
+                white-space: nowrap; }
+            .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemCon {
+              float: left;
+              background: #fff; }
+              .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemCon .menuCon-list {
+                width: 280px;
+                margin: 0 15px 0 15px;
+                padding: 10px 0 10px;
+                overflow: hidden;
+                border-top: 1px dotted #ccc; }
+                .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemCon .menuCon-list p {
+                  margin: 0 0 0 -1px;
+                  line-height: 22px;
+                  max-height: 176px;
+                  _height: 176px;
+                  overflow: hidden; }
+                  .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemCon .menuCon-list p a {
+                    display: inline-block;
+                    float: left;
+                    white-space: nowrap;
+                    padding: 0 8px;
+                    background: url(../images/index/menuLine.jpg) no-repeat scroll left center; }
+                    .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemCon .menuCon-list p a.hot {
+                      color: #f60; }
+                    .navWrap .nav .navCategoryMenu .navCon .menuBox .menuCon .menuItemCon .menuCon-list p a:hover {
+                      text-decoration: none; }
     .navWrap .nav .navList {
-      width: 690px;
+      width: 890px;
       height: 34px;
       float: left; }
+      .navWrap .nav .navList li {
+        display: inline-block;
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        float: left;
+        position: relative;
+        z-index: 203; }
+        .navWrap .nav .navList li.on {
+          background: #b40c10; }
+        .navWrap .nav .navList li a.channel {
+          display: inline-block;
+          height: 34px;
+          color: #fff;
+          font-size: 14px;
+          background: url(../images/index/navLine.png) l no-repeat left center;
+          padding: 0 22px; }
+          .navWrap .nav .navList li a.channel:hover {
+            color: #fff;
+            text-decoration: none;
+            background: #b40c10; }
+        .navWrap .nav .navList li.home .channel {
+          background: 0; }
+        .navWrap .nav .navList li .hot {
+          background-position: 0 -264px;
+          display: block;
+          font-size: 0;
+          height: 17px;
+          line-height: 0;
+          position: absolute;
+          right: 6px;
+          top: -6px;
+          width: 29px;
+          z-index: 203; }
+        .navWrap .nav .navList li .new {
+          background-position: -36px -264px;
+          display: block;
+          font-size: 0;
+          height: 17px;
+          line-height: 0;
+          position: absolute;
+          right: 6px;
+          top: -6px;
+          width: 29px;
+          z-index: 203; }
 
 .homeMainbody {
   width: 100%; }

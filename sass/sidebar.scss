@@ -1,0 +1,559 @@
+@charset "utf-8";
+.rightSidebarBox {
+    width: 35px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    background: #ffffff;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop));
+    box-shadow: 1px 2px 5px #999;
+    .rightSidebar {
+        width: 35px;
+        .rightSidebarCon {
+            width: 35px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            z-index: 311;
+            text-align: center;
+            height: 324px;
+            margin-top: -162px;
+            
+        }
+        .rSidebarItem {
+                width: 35px;
+                position: relative;
+                .rsItemName {
+                    width: 35px;
+                    padding: 10px 0;
+                    position: relative;
+                    z-index: 350;
+                    cursor: pointer;
+                    background: none;
+                    i{
+                        display: inline-block;
+                        width: 19px;
+                        height: 19px;
+                    }
+                    .infoNumber {
+                        position: absolute;
+                        width: 18px;
+                        height: 18px;
+                        line-height: 18px;
+                        text-align: center;
+                        background: #cc0000;
+                        border-radius: 50%;
+                        color: #fff;
+                        top: -3px;
+                        right: 2px;
+                        font-style: normal;
+                        overflow: hidden;
+                    }
+                    .user-i {
+                        background-position: 0 -163px
+                    }
+                    .collect-i {
+                        background-position: -40px -163px;
+                    }
+                    .cart-i {
+                        background-position: -120px -163px;
+                    }
+                    .online-i {
+                        background-position: -45px -331px;
+                    }
+                    span {
+                        display: block;
+                        line-height: 16px;
+                        color: #333333;
+                        padding: 2px 0 0;
+                    }
+                    &.cart-n,&.online-n {
+                        width: 14px;
+                        font-size: 14px;
+                        margin: 0 10px 0 11px;
+                        padding: 6px 0 4px;
+                    }
+                    b {
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        line-height: 14px;
+                        text-align: center;
+                        color: #cf1c23;
+                        font-family: "宋体";
+                        font-weight: normal;
+                        overflow: hidden;
+                        position: relative;
+                        top: 3px;
+                        font-size: 12px;
+                    }
+                    .rsItemPointer {
+                        display: none;
+                        width: 6px;
+                        height: 11px;
+                        position: absolute;
+                        left: 0;
+                        top: 30px;
+                        background-position: -178px -73px;
+                    }
+                }
+                &.cart .rsItemName {
+                    padding: 10px 0;
+                }
+                &.on .rsItemName {
+                    background: #cf1c23;
+                    .user-i {
+                        background-position: -20px -163px;
+                    }
+                    .collect-i {
+                        background-position: -60px -163px;
+                    }
+                    .cart-i {
+                        background-position: -140px -163px;
+                    }
+                    .online-i {
+                        background-position: -65px -331px;
+                    }
+                    span {
+                        color: #fff;
+                    }
+                    b {
+                        color: #fff;
+                    }
+                }
+                .rsItemCon {
+                    display: none;
+                    background: #fff;
+                    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+                    position: absolute;
+                    top: 0;
+                    right: 35px;
+                    z-index: 320;
+                    border: 1px solid #ddd;
+                    border-right: 0;
+                    .sidebarUser {
+                        width: 270px;
+                    }
+                    .sidebarClose {
+                        display: block;
+                        width: 11px;
+                        height: 11px;
+                        background-position: -157px 0;
+                        position: absolute;
+                        right: 15px;
+                        top: 12px;
+                        cursor: pointer;
+                    }
+                    .sidebarUserPho {
+                        width: 270px;
+                        padding: 18px 0 16px;
+                        .sidUser-pho {
+                            display: inline;
+                            width: 80px;
+                            height: 80px;
+                            position: relative;
+                            float: left;
+                            margin-left: 32px;
+                            span {
+                                display: inline-block;
+                                width: 80px;
+                                height: 80px;
+                                background: url(../images/index/mask.jpg)L no-repeat center center;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                z-index: 330;
+                            }
+                            img {
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                z-index: 320;
+                            }
+                        }
+                        .sidUser-name {
+                            padding-left: 12px;
+                            text-align: left;
+                            float: left;
+                            P{
+                                line-height: 24px;
+                            }
+                            em{
+                                font-style: normal;
+                                color: #cc0000;
+                            }
+                            i{
+                                display: inline-block;
+                                height: 21px;
+                                margin-right: 5px;
+                                vertical-align: middle;
+                                width: 22px;
+                                background: url(../../img/newIndexImg/memberLevel-24.png) no-repeat;
+                                
+                            }
+                        }
+                        .suLogin {
+                            padding-top: 5px;
+                            display: none;
+                        }
+                        .suLoginNot {
+                            padding-top: 26px;
+                            a{
+                                color: #cc0000;
+                                padding-left: 5px;
+                            }
+                        }
+                    }
+                    .sidebarUserOpe {
+                        background: #f9f9f9;
+                        border-top: 1px solid #e5e5e5;
+                        padding-bottom: 5px;
+                        .userOpe {
+                            margin: 0 15px;
+                            &.frist{
+                                border-bottom: 1px dotted #ccc;
+                            }
+                        }
+                        .ope-con {
+                            width: 50%;
+                            float: left;
+                            padding: 16px 0 10px;
+                            position: relative;
+                            cursor: pointer;
+                            p{
+                                text-align: center;
+                            }
+                            a{
+                                display: block;
+                            }
+                            .ope-icon i {
+                                display: inline-block;
+                                width: 26px;
+                                height: 26px;
+                                position: relative;
+                            }
+                            .ope-icon em {
+                                display: none;
+                                width: 14px;
+                                height: 14px;
+                                line-height: 14px;
+                                text-align: center;
+                                background: #cc0000;
+                                border-radius: 7px;
+                                color: #fff;
+                                position: absolute;
+                                top: -4px;
+                                right: -8px;
+                                font-style: normal;
+                                overflow: hidden;
+                            }
+                            .ope-name {
+                                line-height: 18px;
+                                padding-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        .rightSidebarBot {
+            width: 35px;
+            position: absolute;
+            bottom: 30px;
+            right: 0;
+            text-align: center;
+            .rSidebarItem {
+                width: 35px;
+                position: relative;
+                margin: 0;
+                .rsItemName {
+                    padding: 8px 0;
+                    .feedback-i {
+                        background-position: 3px -186px;
+                        height: 16px;
+                    }
+                    .code-i {
+                        background-position: -19px -186px;
+                        height: 16px;
+                    }
+                    .backTop-i {
+                        background-position: -40px -186px;
+                        height: 16px;
+                    }
+                    .pro-img {
+                        width: 35px;
+                        height: auto;
+                    }
+                }
+                
+                &.on .rsItemName{
+                    .feedback-i {
+                        background-position: 3px -203px
+                    }
+                    .code-i {
+                        background-position: -19px -204px;
+                    }
+                    .backTop-i {
+                        background-position: -40px -203px;
+                    }
+                }
+                
+                .rsItemLink {
+                    display: inline-block;
+                    color: #666;
+                }
+                .rsItemLink:hover {
+                    text-decoration: none;
+                }
+                &.research {
+                    z-index: 360;
+                    .rsItemName {
+                        position: relative;
+                        height: 0px;
+                        font-size: 0px;
+                        line-height: 0px;
+                        cursor: default;
+                        .research-i {
+                            width: 71px;
+                            height: 114px;
+                            position: absolute;
+                            right: 24px;
+                            top: -86px;
+                            background: url(../../img/newIndexImg/research-i.png) no-repeat top center;
+                            b {
+                                width: 14px;
+                                height: 14px;
+                                position: absolute;
+                                right: 5px;
+                                top: 5px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }  
+            }
+        }
+        /*提示登录框*/
+
+        .sidebarUserLogin {
+            width: 270px;
+            height: 112px;
+            font-family: "微软雅黑";
+            background: #fff;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            top: 0;
+            right: 35px;
+            z-index: 300;
+            overflow: hidden;
+            display: none;
+            border: 1px solid #ddd;
+            border-right: 0;
+        }
+        /*购物车弹层*/
+
+        .rsCartBox {
+            display: none;
+            width: 270px;
+            height: 100%;
+            background: #fff;
+            border-left: 1px solid #ddd;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            top: 0;
+            right: 35px;
+            z-index: 310;
+            .rsCartClose {
+                display: block;
+                width: 12px;
+                height: 12px;
+                background-position: -172px 0;
+                position: absolute;
+                right: 15px;
+                top: 21px;
+                cursor: pointer;
+                z-index: 313;
+            }
+            .rsCartTit {
+                height: 52px;
+                line-height: 52px;
+                padding: 0 15px;
+                border-bottom: 1px solid #ededed;
+                background: #f9f9f9;
+                position: relative;
+                z-index: 312;
+                h3{
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+            }
+            .rsCartCon {
+                .rsCartTabBox {
+                    overflow-x: hidden;
+                    overflow-y: auto;
+                    position: relative;
+                    z-index: 311;
+                    .rsCartTable {
+                        margin: 0 auto;
+                        .rsCartComb {
+                            position: relative;
+                            background: #f8f8f8;
+                            border-bottom: 1px dotted #ddd;
+                            padding: 14px 0;
+                        }
+                    }
+                }
+                .comAmount{
+                    a{
+                        display: none;
+                        width: 15px;
+                        height: 15px;
+                        position: absolute;
+                        top: 0;
+                        overflow: hidden;
+                        cursor: pointer;
+                    }
+                    .minus {
+                        background-position: -167px -106px;
+                        left: -9px;
+                    }
+                    span {
+                        display: inline-block;
+                        width: 30px;
+                        height: 15px;
+                        line-height: 15px;
+                        text-align: center;
+                    }
+                }
+                .rsCartTotal {
+                    height: 50px;
+                    line-height: 50px;
+                    padding: 0 15px 0 10px;
+                    background: #f9f9f9;
+                    position: relative;
+                    z-index: 312;
+                    border-top: 1px dotted #ddd;
+                    .amountAll {
+                        float: left;
+                        b {
+                            color: #cc0000;
+                            padding-right: 5px;
+                        }
+                    }
+                    .priAll {
+                        float: right;
+                        font-size: 16px;
+                        color: #cc0000;
+                    }
+                }
+                .rsCartBut {
+                    height: 34px;
+                    padding: 15px 0 50px;
+                    background: #f9f9f9;
+                    position: relative;
+                    z-index: 312;
+                    .rsCartBut-bay {
+                        display: block;
+                        margin: 0 auto;
+                        width: 166px;
+                        height: 34px;
+                        line-height: 34px;
+                        font-size: 16px;
+                        color: #fff;
+                        font-family: "微软雅黑";
+                        text-align: center;
+                        background: #cf171f;
+                        border-radius: 3px;
+                        &:hover{
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                        &.not{
+                            background: #ccc;
+                            cursor: default;
+                        }
+                    }
+                }
+                .cartAnimate {
+                    display: block;
+                    width: 12px;
+                    height: 18px;
+                    border-radius: 50px;
+                    position: fixed;
+                    z-index: 99999;
+                }
+            }
+        }
+        /*购物车为空*/
+        
+        .rsCartEmpty {
+            display: none;
+        }
+        
+        .cartEmpty {
+            padding-top: 40px;
+        }
+        
+        .cartEmpty p {
+            text-align: center;
+        }
+        
+        .cartEmpty .emptyPho {
+            height: 110px;
+        }
+        
+        .cartEmpty .emptyPho i {
+            display: inline-block;
+            width: 104px;
+            height: 110px;
+            background: url(../images/index/cartEmptyPho.jpg) no-repeat center center;
+        }
+        
+        .cartEmpty .emptyText {
+            line-height: 24px;
+            color: #999;
+            padding-top: 8px;
+        }
+        
+        /*收藏弹层*/
+
+        .collectBox {
+            width: 88px;
+            height: 43px;
+            line-height: 21px;
+            padding: 7px 0;
+            font-family: "微软雅黑";
+        }
+        
+        .collectBox b {
+            color: #cc0000;
+            font-weight: normal;
+        }
+        
+        /*用户反馈弹层*/
+
+        .feedbackBox {
+            cursor: pointer;
+            width: 88px;
+            height: 35px;
+            line-height: 35px;
+            background: #fff;
+        }
+        
+        /*二维码弹层*/
+
+        .codeBox {
+            width: 80px;
+            height: 80px;
+            padding: 4px;
+        }
+        
+        
+    }
+}
+
+
+
+
