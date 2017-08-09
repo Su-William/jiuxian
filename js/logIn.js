@@ -134,17 +134,22 @@ $(function(){
 		var VerNum = $("#verification").val();
 		if(VerNum.toLowerCase() !== $(".refresh i").html().toLowerCase()){
 			$("#verification").addClass("on").parents(".Frame").addClass("wrong").children(".mistakeTip").show().html("验证码错误");
+			return;
 		}else{
 			$("#verification").removeClass("on")
 			$(".mistakeTip").hide();
 		}
 		
 		var str = document.cookie;
-		if(str){
-			var userName = str.slice(0,11);
-			var pasWrd = str.slice(11);
-			$("#userName").val(userName);
-			$("#password").val(pasWrd);
+		var arr = str.split("; ")
+		for(var i in arr){
+			var arr1 = arr[i].split("=");
+			if(arr1[0] == "User"){
+				var userName = arr1[1].slice(0,11);
+				var pasWrd = arr1[1].slice(11);
+				$("#userName").val(userName);
+				$("#password").val(pasWrd);
+			}
 		}
 		
 		if($("#userName").val() == userName && $("#password").val() == pasWrd){
@@ -152,7 +157,7 @@ $(function(){
 				if($(".check").checked){
 					var oDate = new Date();
 					oDate.setDate(oDate.getDate()+7);
-					document.cookie = name + "=" + $("#userName").val() + $("#password").val() + ";expires=" + oDate;
+					document.cookie = "User" + "=" + $("#userName").val() + $("#password").val() + ";expires=" + oDate;
 				}
 				location.href = "index.html";
 			}
@@ -187,13 +192,16 @@ $(function(){
 	
 	function getCookie(){
 		var str = document.cookie;
-		if(str){
-			var userName = str.slice(0,11);
-			var pasWrd = str.slice(11);
-			$("#userName").val(userName);
-			$("#password").val(pasWrd);
+		var arr = str.split("; ")
+		for(var i in arr){
+			var arr1 = arr[i].split("=");
+			if(arr1[0] == "User"){
+				var userName = arr1[1].slice(0,11);
+				var pasWrd = arr1[1].slice(11);
+				$("#userName").val(userName);
+				$("#password").val(pasWrd);
+			}
 		}
-		
 	}
 	getCookie();
 	
@@ -226,8 +234,6 @@ $(function(){
 			$(".scanErrorEwm").stop().animate({"left":0},300)
 		}
 	);
-	
-	
 	
 	
 	

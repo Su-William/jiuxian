@@ -1,0 +1,144 @@
+.dIcon {
+  background: url(../images/detail/d-icon.png) no-repeat; }
+
+.proListSearch {
+  width: 1100px;
+  height: auto;
+  margin: 50px auto; }
+  .proListSearch ul li {
+    width: 247px;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    display: inline-block;
+    z-index: 15p;
+    border: 4px solid #f8f8f8;
+    padding-bottom: 10px;
+    margin: 10px; }
+    .proListSearch ul li .content {
+      width: 247px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+      z-index: 10; }
+      .proListSearch ul li .content .img {
+        display: block;
+        width: 220px;
+        height: 220px;
+        margin: 10px auto;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0; }
+        .proListSearch ul li .content .img img {
+          width: 220px;
+          height: 220px;
+          position: relative;
+          z-index: 1;
+          vertical-align: top;
+          border: 0; }
+      .proListSearch ul li .content .price {
+        height: 24px;
+        font-size: 16px;
+        color: #e4393c;
+        line-height: 24px;
+        padding-left: 15px; }
+        .proListSearch ul li .content .price span {
+          font-size: 20px;
+          float: none;
+          vertical-align: baseline;
+          padding-left: 3px; }
+      .proListSearch ul li .content .proName {
+        display: block;
+        width: 220px;
+        height: 36px;
+        color: #000;
+        overflow: hidden;
+        padding-left: 15px; }
+      .proListSearch ul li .content .judge {
+        display: block;
+        color: #005aa0;
+        width: 220px;
+        padding-left: 15px; }
+      .proListSearch ul li .content .cart {
+        width: 76px;
+        height: 26px;
+        padding-left: 32px;
+        line-height: 26px;
+        border: 1px solid #ddd;
+        color: #cf010e;
+        float: left;
+        display: inline-block;
+        margin: 10px 0 0 15px;
+        background: url(../images/productList/srpIcons.png) no-repeat -252px -2px; }
+        .proListSearch ul li .content .cart:hover {
+          text-decoration: none; }
+  .proListSearch .buyBox {
+    width: 430px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    margin: -100px 0 0 -215px;
+    background: #fff;
+    border: 6px solid #ccc;
+    z-index: 1000;
+    border-radius: 10px; }
+    .proListSearch .buyBox .SucBuy {
+      height: 28px;
+      line-height: 28px;
+      font-size: 0;
+      vertical-align: middle;
+      text-align: center;
+      display: block;
+      margin-top: 13%; }
+      .proListSearch .buyBox .SucBuy i {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+        vertical-align: middle;
+        background-position: -201px -55px; }
+      .proListSearch .buyBox .SucBuy span {
+        height: 28px;
+        font-size: 18px;
+        color: #000;
+        padding-left: 10px;
+        vertical-align: middle; }
+      .proListSearch .buyBox .SucBuy .GoBuy {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 140px; }
+        .proListSearch .buyBox .SucBuy .GoBuy span {
+          display: inline-block;
+          width: 100px;
+          height: 20px;
+          line-height: 20px;
+          font-size: 18px;
+          color: #c33; }
+      .proListSearch .buyBox .SucBuy .GoPay {
+        display: block;
+        width: 200px;
+        height: 50px;
+        color: #fff;
+        position: absolute;
+        background: #c33;
+        left: 127px;
+        top: 130px;
+        border-radius: 5px; }
+        .proListSearch .buyBox .SucBuy .GoPay span {
+          display: inline-block;
+          color: #fff;
+          line-height: 50px; }
+    .proListSearch .buyBox .cloB {
+      background-position: -230px -19px;
+      width: 15px;
+      height: 15px;
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 10px; }
+
+/*# sourceMappingURL=productList.css.map */

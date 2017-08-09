@@ -46,6 +46,10 @@ i, em {
         position: relative;
         line-height: 0;
         font-size: 0; }
+        .w1200 .dIntro .introShow .show-pic img {
+          width: 100%;
+          height: 100%;
+          display: block; }
       .w1200 .dIntro .introShow .show-list-prev, .w1200 .dIntro .introShow .show-list-next {
         padding-left: 14px; }
       .w1200 .dIntro .introShow .show-list-prev i, .w1200 .dIntro .introShow .show-list-next i {
@@ -152,9 +156,14 @@ i, em {
           font-size: 14px;
           font-family: "Microsoft YaHei";
           padding: 8px 0 3px; }
-      .w1200 .dIntro .introInfo .infoWrap {
+      .w1200 .dIntro .introInfo .comSummary {
         padding: 10px;
         background: #fafafa;
+        margin-top: 5px;
+        position: relative;
+        z-index: 2; }
+      .w1200 .dIntro .introInfo .infoWrap {
+        padding: 10px;
         margin-top: 5px;
         position: relative;
         z-index: 2; }
@@ -294,8 +303,178 @@ i, em {
               position: relative;
               z-index: 2;
               font-size: 0; }
-              .w1200 .dIntro .introInfo .comChooseBay .cityBox .infoCity .citySelect .dOrder-city-sel strong {
+              .w1200 .dIntro .introInfo .comChooseBay .cityBox .infoCity .citySelect .dOrder-city-sel b {
+                font-size: 12px;
+                color: #666;
+                font-weight: normal;
+                padding-right: 5px;
+                vertical-align: text-bottom;
+                display: inline-block; }
+              .w1200 .dIntro .introInfo .comChooseBay .cityBox .infoCity .citySelect .dOrder-city-sel i {
                 display: inline-block;
-                padding-left: 8px; }
+                width: 22px;
+                height: 22px;
+                background-position: -139px -30px; }
+            .w1200 .dIntro .introInfo .comChooseBay .cityBox .infoCity .citySelect strong {
+              display: inline-block;
+              padding-left: 8px;
+              vertical-align: text-bottom; }
+      .w1200 .dIntro .introInfo .comChooseBay .chooseBox {
+        margin-bottom: 8px; }
+        .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose {
+          width: 464px; }
+          .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose a * {
+            display: inline-block;
+            cursor: pointer;
+            vertical-align: middle; }
+          .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose .choItem {
+            float: left;
+            height: 32px;
+            padding: 0 10px 10px 0;
+            border: 0; }
+            .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose .choItem.on a {
+              border: 1px solid #c33;
+              cursor: default; }
+            .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose .choItem a {
+              color: #666; }
+              .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose .choItem a .img {
+                position: relative;
+                z-index: 1; }
+              .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose .choItem a span {
+                margin: 0 5px 0 2px;
+                font-size: 12px; }
+          .w1200 .dIntro .introInfo .comChooseBay .chooseBox .infoChoose a {
+            display: inline-block;
+            font-size: 0;
+            line-height: 0;
+            width: auto !important;
+            height: 30px;
+            border: 1px solid #e5e5e5;
+            color: #666;
+            white-space: nowrap;
+            vertical-align: middle;
+            position: relative; }
+      .w1200 .dIntro .introInfo .comChooseBay .bayNumBox {
+        margin-bottom: 28px; }
+        .w1200 .dIntro .introInfo .comChooseBay .bayNumBox .buyNum {
+          float: left;
+          width: 66px;
+          height: 30px;
+          position: relative; }
+          .w1200 .dIntro .introInfo .comChooseBay .bayNumBox .buyNum input {
+            float: left;
+            width: 26px;
+            height: 28px;
+            line-height: 28px;
+            color: #666;
+            font-family: "Microsoft YaHei";
+            padding: 0 8px;
+            border: 1px solid #999; }
+          .w1200 .dIntro .introInfo .comChooseBay .bayNumBox .buyNum .buyNum-btn {
+            width: 17px;
+            height: 11px;
+            position: absolute;
+            right: 0;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            display: block; }
+          .w1200 .dIntro .introInfo .comChooseBay .bayNumBox .buyNum .buyNum-add {
+            background-position: -70px -25px;
+            top: 0;
+            border: 1px solid #999; }
+          .w1200 .dIntro .introInfo .comChooseBay .bayNumBox .buyNum .buyNum-reduce {
+            background-position: -70px -41px;
+            top: 17px;
+            border: 1px solid #999; }
+        .w1200 .dIntro .introInfo .comChooseBay .bayNumBox .buyPro {
+          float: left;
+          color: #c33;
+          margin-left: 12px; }
+      .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox {
+        margin-bottom: 18px;
+        overflow: hidden;
+        position: relative; }
+        .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .infoBuy {
+          width: 550px;
+          padding-left: 64px; }
+          .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .infoBuy .buyBtn-cart {
+            border: 1px solid #fcc;
+            background: #c33;
+            color: #fff;
+            display: inline-block;
+            width: 166px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            margin-right: 12px; }
+            .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .infoBuy .buyBtn-cart:hover {
+              text-decoration: none; }
+        .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox {
+          width: 430px;
+          height: 200px;
+          position: fixed;
+          top: 50%;
+          left: 55%;
+          margin: -100px 0 0 -215px;
+          background: #fff;
+          border: 6px solid #ccc;
+          z-index: 1000;
+          border-radius: 10px; }
+          .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .SucBuy {
+            height: 28px;
+            line-height: 28px;
+            font-size: 0;
+            vertical-align: middle;
+            text-align: center;
+            display: block;
+            margin-top: 13%; }
+            .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .SucBuy i {
+              width: 28px;
+              height: 28px;
+              display: inline-block;
+              vertical-align: middle;
+              background-position: -201px -55px; }
+            .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .SucBuy span {
+              height: 28px;
+              font-size: 18px;
+              color: #000;
+              padding-left: 10px;
+              vertical-align: middle; }
+            .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .SucBuy .GoBuy {
+              display: inline-block;
+              position: absolute;
+              left: 0;
+              top: 140px; }
+              .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .SucBuy .GoBuy span {
+                display: inline-block;
+                width: 100px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 18px;
+                color: #c33; }
+            .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .SucBuy .GoPay {
+              display: block;
+              width: 200px;
+              height: 50px;
+              color: #fff;
+              position: absolute;
+              background: #c33;
+              left: 127px;
+              top: 130px;
+              border-radius: 5px; }
+              .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .SucBuy .GoPay span {
+                display: inline-block;
+                color: #fff;
+                line-height: 50px; }
+          .w1200 .dIntro .introInfo .comChooseBay .bayBtnBox .buyBox .cloB {
+            background-position: -230px -19px;
+            width: 15px;
+            height: 15px;
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 10px; }
 
 /*# sourceMappingURL=detail.css.map */

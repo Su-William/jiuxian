@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/index-base.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		<div class="topHeader">
+			<div class="topHeaderCon">
+				<div class="topHeaderLeft">
+					<div class="clearfix">
+						<p class="javascript:;">欢迎来酒仙网！</p>
+						<a href="logIn.html">请登录</a>
+						<a href="signIn.html">免费注册</a>
+					</div>
+				</div>
+				<div class="topHeaderRight">
+					<ul>
+						<li class="hd-n6">
+							<a href="javascript:;" target="_blank">我的订单</a><s></s>
+						</li>
+						<li class="hd-n6">
+							<a href="javascript:;">我的酒仙网</a><s></s>
+						</li>
+						<li class="hd-n9"><span>客服热线</span><b class="servPhone">400-617-9999</b></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="midHeader">
+			<div class="midHeaderBox">
+				<div class="jxwLogo">
+					<p style="background:url(images/logo.jpg) no-repeat;" class="jxwIndex">
+						<a href="index.html"></a>
+					</p>
+				</div>
+				<div class="bayProcess">
+					<div class="proPic"></div>
+					<div class="proTex"><span class="on">我的购物车</span><span class="on2">确认订单信息</span><span class="on3">成功提交订单</span></div>
+				</div>
+			</div>
+		</div>
+		<!--页头end-->
+
+		<div class="shoppingCart">
+			<div class="cartBox">
+				<div id="cart_container">
+					<!--商品列表-->
+					<div class="cartHeader">
+						<!--列表标题-->
+						<div class="cartHeaderCon goodHeadCheck">
+							<input class="checkAll" value="全选" checked="" type="checkbox"> <span>全选</span>
+						</div>
+						<div class="cartHeaderCon goodHeadName">商品名称</div>
+						<div class="cartHeaderCon goodHeadPrice">酒仙价</div>
+						<div class="cartHeaderCon goodHeadGold">送金币</div>
+						<div class="cartHeaderCon goodHeadNum">数量</div>
+						<div class="cartHeaderCon goodHeadTotal">商品合计</div>
+						<div class="cartHeaderCon goodHeadOperate">操作</div>
+					</div>
+					<div class="cartTableBox">
+						<!--列表主体-->
+						<div class="pubHeader">
+							<div class="shopAll">
+								<input class="checkShopAll" value="全选" checked="checked" type="checkbox">
+
+								<i class="shopIcon jxzy"></i> <span>酒仙自营</span>
+
+							</div>
+							<div class="freePosBox">
+								<p>满<span>100元</span>包邮（新疆、西藏满<span>500元</span>包邮）</p>
+							</div>
+						</div>
+						<div class="cart-tabBox">
+							<table class="cartTab" name="1" id="tab" cellspacing="0" cellpadding="0">
+								<tbody>
+
+									<tr class="cTab-tr  ">
+										<td class="cTab-check">
+											<input class="checkboxs" name="cart_item" cart_unit="item-5074" checked="" type="checkbox"> </td>
+										<td class="cTab-name">
+											<div class="cn-Pic">
+												<a target="_blank" href="http://www.jiuxian.com/goods-5074.html"><img src="https://img09.jiuxian.com/2015/0612/e604fd9009764658acfaedd4cd98cfc84.jpg" width="52" height="52"></a>
+											</div>
+											<div class="cn-Con">
+												<p class="cn-Con-Name2">
+													<a target="_blank" href="http://www.jiuxian.com/goods-5074.html">50°西凤·御宴酒（精装版）500ml</a>
+												</p>
+											</div>
+										</td>
+										<td class="cTab-jxPri">
+											<div class="clubPrice"><em>￥<span>39.00</span></em></div>
+										</td>
+										<td class="cTab-gold"> 78金币 </td>
+										<td class="cTab-amount">
+											<div class="cAmount-add">
+												<span class="cartIcon ca-minus" cart_unit="item-5074"></span> <input class="ctxt" value="4" name="cart_unit_count" cart_unit="item-5074" restriction="-1" stock="1517" src="0" type="text"> <span class="cartIcon ca-plus plusOn" cart_unit="item-5074" restriction="-1" stock="1517"></span>
+											</div>
+											<div class="cAmount-pro numLimited">有货</div>
+										</td>
+										<td class="cTab-subt">
+											￥156.00 </td>
+										<td class="cTab-ope">
+											<div class="opeBox">
+												<a href="javascript:void(0);" class="delete" cart_unit="item-5074">删除</a>
+												<a href="javascript:void(0);" class="sc" proid="5074">收藏</a>
+											</div>
+										</td>
+									</tr>
+
+									<tr class="cTab-tr  ">
+										<td class="cTab-check">
+											<input class="checkboxs" name="cart_item" cart_unit="item-43208" checked="" type="checkbox"> </td>
+										<td class="cTab-name">
+											<div class="cn-Pic">
+												<a target="_blank" href="http://www.jiuxian.com/goods-43208.html"><img src="https://img10.jiuxian.com/2017/0614/d3d6d5f6e703475e9c59fabac51e93a94.jpg" width="52" height="52"></a>
+											</div>
+											<div class="cn-Con">
+												<p class="cn-Con-Name2">
+													<a target="_blank" href="http://www.jiuxian.com/goods-43208.html">52°酒鬼馥郁天成（天工开物升级版）1L+52°酒鬼酒（天工开物）248ml</a>
+												</p>
+											</div>
+										</td>
+										<td class="cTab-jxPri">
+											<div class="clubPrice"><em>￥<span>329.00</span></em></div>
+										</td>
+										<td class="cTab-gold"> 164金币 </td>
+										<td class="cTab-amount">
+											<div class="cAmount-add">
+												<span class="cartIcon ca-minus" cart_unit="item-43208"></span> <input class="ctxt" value="1" name="cart_unit_count" cart_unit="item-43208" restriction="-1" stock="124" src="0" type="text"> <span class="cartIcon ca-plus plusOn" cart_unit="item-43208" restriction="-1" stock="124"></span>
+											</div>
+											<div class="cAmount-pro numLimited">有货</div>
+										</td>
+										<td class="cTab-subt">
+											￥329.00 </td>
+										<td class="cTab-ope">
+											<div class="opeBox">
+												<a href="javascript:void(0);" class="delete" cart_unit="item-43208">删除</a>
+												<a href="javascript:void(0);" class="sc" proid="43208">收藏</a>
+											</div>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!--购物车结算层 start-->
+					<div class="countMoney">
+						<div class="moneyDetail clearfix">
+							<div class="moneyDetCon">
+								<div class="goonShop">
+									<label><input value="全选" class="checkAll" id="checkAll" checked="" type="checkbox"><span>全选</span></label>
+									<a class="ma1 deleteGood" href="javascript:;">删除选中商品</a>
+									<a class="ma1 clearCart" href="javascript:;" id="clear_cart">清空购物车</a>
+									<a class="ma2" href="index.html">继续购物</a>
+								</div>
+								<div class="countBox">
+									<div class="sett-submit">处理中...</div>
+									<div class="countBtnBox">
+										<a href="javascript:;" class="countSubmit" id="submitOrderBtn">去结算</a>
+									</div>
+									<div class="countSum">
+										<b>总计（不含运费）：</b><span>￥</span><span class="sumMoney">485.00 </span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--页脚-->
+		<div class="loadFifth" style="height: 490px;">
+			<!--页脚start-->
+			<div class="footer">
+				<div class="footerTopBox">
+					<div class="footerTop">
+						<div class="footerContact"><i class="publicIcon"></i><b>400-617-9999</b><span>客服热线</span><span>9:00-23:00</span><span>贴心服务</span></div>
+						<div class="footerTopRight">
+							<div class="ftRight-tit">优惠促销早知道</div>
+							<div class="ftRight-form"><input id="subscribe_email" type="text" value="" name=""><span>请输入您的邮箱地址</span><i class="publicIcon" id="subscribe_but"></i></div>
+						</div>
+					</div>
+					<div class="footerServices">
+						<ul class="clearfix">
+							<li class="servicesItme01">
+								<h3><i class="publicIcon"></i><span>新手入门</span></h3>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">购物保障</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">服务协议</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">发票说明</a>
+								</p>
+							</li>
+							<li class="servicesItme02">
+								<h3><i class="publicIcon"></i><span>常见问题</span></h3>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">红包使用</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">返现使用</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">兑换码</a>
+								</p>
+							</li>
+							<li class="servicesItme03">
+								<h3><i class="publicIcon"></i><span>配送说明</span></h3>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">配送时间</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">配送费用</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">配送范围</a>
+								</p>
+							</li>
+							<li class="servicesItme04">
+								<h3><i class="publicIcon"></i><span>支付方式</span></h3>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">货到付款</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">在线支付</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">线下支付</a>
+								</p>
+							</li>
+							<li class="servicesItme05">
+								<h3><i class="publicIcon"></i><span>售后服务</span></h3>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">品质保证</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">退换货政策</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">退换货流程</a>
+								</p>
+							</li>
+							<li class="servicesItme06">
+								<h3><i class="publicIcon"></i><span>特色服务</span></h3>
+								<p>
+									<a href="javascript:;" target="_blank">会员俱乐部</a>
+								</p>
+								<p>
+									<a href="javascript:;" target="_blank" rel="nofollow">企业客户</a>
+								</p>
+								<p>
+									<a target="_blank" href="javascript:;">酒仙社区</a>
+								</p>
+							</li>
+							<li class="jxMicroblogging">
+								<div class="item sinaMb">
+									<div class="sinaMbCom clearfix">
+										<a href="javascript:;" target="_blank" rel="nofollow"><i class="publicIcon"></i></a>
+										<a href="javascript:;" target="_blank" rel="nofollow">酒仙新浪微博</a>
+									</div>
+								</div>
+								<div class="item weixin">
+									<div class="weixinCon clearfix" flag="show"><i class="publicIcon"></i>
+										<a id="jxWeixin" href="javascript:;" target="_blank" rel="nofollow">酒仙微信</a>
+									</div>
+									<div class="weixinCode" id="weixinCode" style="display: block;"><img src="http://misc.jiuxian.com/img/newIndexImg/weixin-code.jpg"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footerBotBox">
+					<div class="footerBot clearfix">
+						<div class="footerBotLeft">
+							<p class="footerInfo">
+								<a href="http://help.jiuxian.com/view-0-105.htm" target="_blank" rel="nofollow">公司简介<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">管理团队<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">媒体报道<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">联系我们<i></i></a>
+								<a href="javascript:;" target="_blank" rel="nofollow">招贤纳士<i></i></a>
+								<a href="javascript:;" target="_blank">友情链接<i></i></a>
+								<a href="javascript:;" target="_blank">网站地图<i></i></a>
+								<a href="javascript:;" target="_blank">品牌大全<i></i></a>
+							</p>
+							<p class="copyright">北京酒仙网络科技有限公司&nbsp;&nbsp;©&nbsp;&nbsp;酒仙网&nbsp;&nbsp;&nbsp;2011&nbsp;&nbsp;jiuxian.com&nbsp;&nbsp;All&nbsp;&nbsp;&nbsp;Rights&nbsp;Reserved&nbsp;&nbsp;&nbsp;
+								<a href="javascript:;" target="_blank" rel="nofollow">京ICP备17043395号</a>&nbsp;&nbsp;&nbsp;京公网安备1101050188221</p>
+
+							<p class="friendLink">
+								<span class="linkWidth">
+	<a href="http://www.damai.cn/" target="_blank">大麦网</a>|
+	<a href="http://www.1zw.com/" target="_blank">1折网</a>|
+	<a href="http://www.tiexue.net/" target="_blank">铁血军事</a>|
+	<a href="javascript:;" target="_blank">酒仙网白酒</a>|
+	<a href="javascript:;" target="_blank">酒仙网葡萄酒</a>|
+	<a href="javascript:;" target="_blank">开放平台招商</a>|
+	<a href="javascript:;" target="_blank">购酒论坛</a>|
+	<a href="http://www.s.cn/" target="_blank">名鞋库</a>|
+	<a href="javascript:;" target="_blank">酒仙网团购</a>|
+	</span>
+								<a href="javascript:;" target="_blank" class="moreLink">更多</a>
+							</p>
+							<p class="footerAddr" style="color:#999; line-height:22px;"><span>统一社会信用代码&nbsp;&nbsp;91110302306646672B&nbsp;&nbsp;&nbsp;食品流通许可证编号&nbsp;&nbsp;SP1103021310005747&nbsp;&nbsp;&nbsp;</span></p>
+							<p class="footerAddr" style="color:#999; line-height:22px; padding-bottom:7px;"><span>地址：北京市北京经济技术开发区经海五路58号院8幢4层</span></p>
+							<p class="footerPro" style="padding:11px 0 6px;">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+						</div>
+						<div class="footerBotCode">
+							<div class="jxPho-code">
+								<p class="codePic"><img alt="手机酒仙网" src="http://misc.jiuxian.com/img/newIndexImg/jxPho-code.jpg" width="80" height="80"></p>
+								<p class="codeText">手机酒仙网</p>
+							</div>
+							<div class="jkd-code">
+								<p class="codePic"><img alt="酒快到" src="http://misc.jiuxian.com/img/newIndexImg/jkd-code.jpg" width="80" height="80"></p>
+								<p class="codeText">酒快到</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--页脚end-->
+		</div>
+		<!--页脚end-->
+	</body>
+
+</html>

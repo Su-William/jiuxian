@@ -37,7 +37,7 @@ $(function() {
 		$(".categoryBox").html(html);
 	})
 	$(".categoryBox").on("mouseenter","li",function(){
-		$(".navCon").show();
+		
 		console.log(this);
 		var index = $(this).index();
 		$.get("./js/nav-data.json",function(data){
@@ -45,6 +45,7 @@ $(function() {
 			var html = template("menu",data[index]);
 			console.log(data[index]);
 			$(".navCon").html(html);
+			$(".navCon").show();
 		})
 	})
 	$(".navCategoryMenu").on("mouseleave",function(){

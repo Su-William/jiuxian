@@ -61,6 +61,11 @@ i,em{
                 position: relative;
                 line-height: 0;
                 font-size: 0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    display: block
+                }
             }
             .show-list-prev,.show-list-next{
                 padding-left: 14px;
@@ -199,9 +204,15 @@ i,em{
                     padding: 8px 0 3px;
                 }
             }
-            .infoWrap{
+            .comSummary{
                 padding: 10px;
                 background: #fafafa;
+                margin-top: 5px;
+                position: relative;
+                z-index: 2;
+            }
+            .infoWrap{
+                padding: 10px;
                 margin-top: 5px;
                 position: relative;
                 z-index: 2;
@@ -373,22 +384,215 @@ i,em{
                                 position: relative;
                                 z-index: 2;
                                 font-size: 0;
-                                strong{
+                                b{
+                                    font-size: 12px;
+                                    color: #666;
+                                    font-weight: normal;
+                                    padding-right: 5px;
+                                    vertical-align: text-bottom;
                                     display: inline-block;
-                                    padding-left: 8px;
                                 }
+                                i{
+                                    display: inline-block;
+                                    width: 22px;
+                                    height: 22px;
+                                    background-position: -139px -30px;
+                                }
+                            }
+                            strong{
+                                display: inline-block;
+                                padding-left: 8px;
+                                vertical-align: text-bottom;
                             }
                         }
                     }
                 }
                 .chooseBox{
-                    
+                    margin-bottom: 8px;
+                    .infoChoose{
+                        width: 464px;
+                        a *{
+                            display: inline-block;
+                            cursor: pointer;
+                            vertical-align: middle;
+                        }
+                        .choItem{
+                            float: left;
+                            height: 32px;
+                            padding: 0 10px 10px 0;
+                            border: 0;
+                            &.on a{
+                                border: 1px solid #c33;
+                                cursor: default;
+                            }
+                            a{
+                                color:#666;
+                                .img{
+                                    position: relative;
+                                    z-index: 1;
+                                }
+                                span{
+                                    margin: 0 5px 0 2px;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                        a{
+                            display: inline-block;
+                            font-size: 0;
+                            line-height: 0;
+                            width: auto !important;
+                            height: 30px;
+                            border: 1px solid #e5e5e5;
+                            color: #666;
+                            white-space: nowrap;
+                            vertical-align: middle;
+                            position: relative;
+                        }
+                    }
                 }
                 .bayNumBox{
-                    
+                    margin-bottom: 28px;
+                    .buyNum{
+                        float: left;
+                        width: 66px;
+                        height: 30px;
+                        position: relative;
+                        input{
+                            float: left;
+                            width: 26px;
+                            height: 28px;
+                            line-height: 28px;
+                            color: #666;
+                            font-family: "Microsoft YaHei";
+                            padding: 0 8px;
+                            border: 1px solid #999;
+                        }
+                        .buyNum-btn{
+                            width: 17px;
+                            height: 11px;
+                            position: absolute;
+                            right: 0;
+                            border: 1px solid #ccc;
+                            overflow: hidden;
+                            display: block;
+                        }
+                        .buyNum-add{
+                            background-position: -70px -25px;
+                            top: 0;
+                            border: 1px solid #999;
+                        }
+                        .buyNum-reduce{
+                            background-position: -70px -41px;
+                            top: 17px;
+                            border: 1px solid #999;
+                        }
+                    }
+                    .buyPro{
+                        float: left;
+                        color: #c33;
+                        margin-left: 12px;
+                    }
                 }
                 .bayBtnBox{
-                    
+                    margin-bottom: 18px;
+                    overflow: hidden;
+                    position: relative;
+                    .infoBuy{
+                        width: 550px;
+                        padding-left: 64px;
+                        .buyBtn-cart{
+                            border: 1px solid #fcc;
+                            background: #c33;
+                            color: #fff;
+                            display: inline-block;
+                            width: 166px;
+                            height: 38px;
+                            line-height: 38px;
+                            text-align: center;
+                            font-size: 16px;
+                            font-family: "Microsoft YaHei";
+                            margin-right: 12px;
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .buyBox{
+                        width: 430px;
+                        height: 200px;
+                        position: fixed;
+                        top: 50%;
+                        left: 55%;
+                        margin: -100px 0 0 -215px;
+                        background: #fff;
+                        border: 6px solid #ccc;
+                        z-index: 1000;
+                        border-radius: 10px;
+                        .SucBuy{
+                            height: 28px;
+                            line-height: 28px;
+                            font-size: 0;
+                            vertical-align: middle;
+                            text-align: center;
+                            display: block;
+                            margin-top: 13%;
+                            i{
+                                width: 28px;
+                                height: 28px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                background-position: -201px -55px;
+                            }
+                            span{
+                                height: 28px;
+                                font-size: 18px;
+                                color: #000;
+                                padding-left: 10px;
+                                vertical-align: middle;
+                            }
+                            .GoBuy{
+                                display: inline-block;
+                                
+                                position: absolute;
+                                left: 0;
+                                top: 140px;
+                                span{
+                                    display: inline-block;
+                                    width: 100px;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    font-size: 18px;
+                                    color: #c33;
+                                }
+                            }
+                            .GoPay{
+                                display: block;
+                                width: 200px;
+                                height: 50px;
+                                color: #fff;
+                                position: absolute;
+                                background: #c33;
+                                left: 127px;
+                                top: 130px;
+                                border-radius: 5px;
+                                span{
+                                    display: inline-block;
+                                    color: #fff;
+                                    line-height: 50px;
+                                }
+                            }
+                        }
+                        .cloB{
+                            background-position: -230px -19px;
+                            width: 15px;
+                            height: 15px;
+                            display: block;
+                            position: absolute;
+                            right: 10px;
+                            top: 10px;
+                        }
+                    }
                 }
             }
         }

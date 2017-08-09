@@ -150,7 +150,7 @@ $(function(){
 			}
 		}
 		
-		document.cookie = name + "=" + $("#phone").val()+$("#phonePwd").val() + ";"
+		document.cookie = "User" + "=" + $("#phone").val()+$("#phonePwd").val() + ";"
 		location.href='logIn.html';
 		
 	})
